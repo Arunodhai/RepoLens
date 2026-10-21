@@ -1,0 +1,6 @@
+{
+  "name": "RepoLens — Repository Intelligence",
+  "description": "Executive GitHub repository intelligence and engineering analytics dashboard with sprint kanban boards, commit inspection, contributor ownership, vulnerability audits, and PDF reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

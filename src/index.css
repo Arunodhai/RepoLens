@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #000000;
+    color: #f4f4f5;
+    overflow-x: hidden;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Custom subtle scrollbar on OLED pure black */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #18181b;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #27272a;
+  }
+}
+
+/* Base Card styling on OLED pure black */
+.rl-card {
+  background-color: #000000;
+  border: 1px solid #1f1f23;
+  border-radius: 0.75rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.rl-card:hover {
+  border-color: #2e2e33;
+}
+
+/* Recharts overrides on OLED black */
+.recharts-default-tooltip {
+  background-color: #000000 !important;
+  border: 1px solid #27272a !important;
+  border-radius: 8px !important;
+  box-shadow: 0 12px 30px -4px rgba(0, 0, 0, 1) !important;
+}
+
+.recharts-tooltip-item {
+  color: #fafafa !important;
+  font-size: 11px !important;
+  font-family: var(--font-mono) !important;
+}
+
+/* Prism.js Syntax Highlighting - OLED Obsidian Palette */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #71717a !important;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #a1a1aa !important;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #f59e0b !important; /* amber-400 */
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #34d399 !important; /* emerald-400 */
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #38bdf8 !important; /* sky-400 */
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #f43f5e !important; /* rose-400 */
+  font-weight: 600;
+}
+
+.token.function,
+.token.function-definition,
+.token.class-name {
+  color: #60a5fa !important; /* blue-400 */
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #fb923c !important; /* orange-400 */
+}
+
+.token.decorator,
+.token.annotation {
+  color: #fbbf24 !important; /* amber-300 */
+  font-weight: 600;
+}
+
+.token.triple-quoted-string,
+.token.string-interpolation,
+.token.interpolation {
+  color: #34d399 !important; /* emerald-400 */
+}
+
+.token.delimiter {
+  color: #f43f5e !important;
+}
+
+.token.namespace {
+  color: #a78bfa !important; /* violet-400 */
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+

@@ -1,0 +1,3272 @@
+[
+  {
+    "path": ".github",
+    "type": "tree",
+    "size": 0,
+    "sha": "25ce9c34f0fa040c64ad99dbc0f1d5dd25ee2760"
+  },
+  {
+    "path": ".github/workflows",
+    "type": "tree",
+    "size": 0,
+    "sha": "37e6a07ebfe391ff46243c79457e409df31fc3f3"
+  },
+  {
+    "path": ".github/workflows/verification.yml",
+    "type": "blob",
+    "size": 476,
+    "sha": "e4953f013500a3c4fea73c89e216b5c8e9d0f46d"
+  },
+  {
+    "path": ".gitignore",
+    "type": "blob",
+    "size": 439,
+    "sha": "dad96acf38e4049f074026400afd5aabc2f4c94e"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "type": "blob",
+    "size": 1410,
+    "sha": "c311d66eebda200d6ffde9b963383ed7b9daa303"
+  },
+  {
+    "path": "Church_Govern_Project_Tracker.xlsx",
+    "type": "blob",
+    "size": 29493,
+    "sha": "d5f25a02dea5c1e147cf2a424513587026d3c0ac"
+  },
+  {
+    "path": "FRONTEND_CMS_HANDOFF.md",
+    "type": "blob",
+    "size": 8910,
+    "sha": "e051bb542a9c2939e639f2b2283a4b623e8ee216"
+  },
+  {
+    "path": "HANDOFF.md",
+    "type": "blob",
+    "size": 7554,
+    "sha": "dd4ac72bdef2dc63fe4b1162fd9903527160502d"
+  },
+  {
+    "path": "README.md",
+    "type": "blob",
+    "size": 2159,
+    "sha": "d337168752a5e8875cf47f11dd0aa8cca1042fb5"
+  },
+  {
+    "path": "church-govern-core",
+    "type": "tree",
+    "size": 0,
+    "sha": "73213b11f2502da3c5ce6fbcb60f79c6e9095d18"
+  },
+  {
+    "path": "church-govern-core/README.md",
+    "type": "blob",
+    "size": 27439,
+    "sha": "172ad66b0a79db259031fa690ffcc6169a413497"
+  },
+  {
+    "path": "church-govern-core/assets",
+    "type": "tree",
+    "size": 0,
+    "sha": "03c5300be9d87de78f1543cf079da096a6870982"
+  },
+  {
+    "path": "church-govern-core/assets/author-editor.js",
+    "type": "blob",
+    "size": 3159,
+    "sha": "a3d0c2a8b5b1d5c48ef841f21dd673f2bcd25353"
+  },
+  {
+    "path": "church-govern-core/assets/blocks.js",
+    "type": "blob",
+    "size": 1233,
+    "sha": "a72379a8cba7eaee40ca7d3fd83be0fd36767b09"
+  },
+  {
+    "path": "church-govern-core/assets/core.css",
+    "type": "blob",
+    "size": 2715,
+    "sha": "8a67f61a60b3d61acdc2a7e96bc936296406d054"
+  },
+  {
+    "path": "church-govern-core/assets/form-mail-admin.js",
+    "type": "blob",
+    "size": 2980,
+    "sha": "f584d1c21d216fd69ab93feb6f6e7afc77610160"
+  },
+  {
+    "path": "church-govern-core/assets/module-cards.js",
+    "type": "blob",
+    "size": 2263,
+    "sha": "a4d85f0f88d0a6e09578aa521741295f488abb95"
+  },
+  {
+    "path": "church-govern-core/church-govern-core.php",
+    "type": "blob",
+    "size": 2225,
+    "sha": "f732abf1a8ae28c3b7618c515e434e4ad600274a"
+  },
+  {
+    "path": "church-govern-core/includes",
+    "type": "tree",
+    "size": 0,
+    "sha": "2f7aa131a85fb26bf924e4caf1558de1f347f1ef"
+  },
+  {
+    "path": "church-govern-core/includes/admin.php",
+    "type": "blob",
+    "size": 31375,
+    "sha": "5f3ef35b538aa32925f15f2a80cb1d59db7f892b"
+  },
+  {
+    "path": "church-govern-core/includes/audit-fixes.php",
+    "type": "blob",
+    "size": 2726,
+    "sha": "582d69f2e474fc0bbaf376780963dbce5ef9b222"
+  },
+  {
+    "path": "church-govern-core/includes/audit.php",
+    "type": "blob",
+    "size": 11718,
+    "sha": "92938fae5c797d83d1ded7a2eade8e014bfa43c1"
+  },
+  {
+    "path": "church-govern-core/includes/blog-governance.php",
+    "type": "blob",
+    "size": 36631,
+    "sha": "839f04e3bfb764cd7f9bada352b538a30f21a60a"
+  },
+  {
+    "path": "church-govern-core/includes/blogs.php",
+    "type": "blob",
+    "size": 55109,
+    "sha": "acc85d00f0c42a06bef5718dbeb0ca65b5177d1f"
+  },
+  {
+    "path": "church-govern-core/includes/bootstrap.php",
+    "type": "blob",
+    "size": 5986,
+    "sha": "9a9179c6b6535cf9d9f44bd235a3095f099471df"
+  },
+  {
+    "path": "church-govern-core/includes/content.php",
+    "type": "blob",
+    "size": 9764,
+    "sha": "652ad83f38a46ae03504763a212a61e046db9586"
+  },
+  {
+    "path": "church-govern-core/includes/demo-readiness.php",
+    "type": "blob",
+    "size": 5332,
+    "sha": "d4817ee35d6cb25061ce38bd37a89f3f8efa807f"
+  },
+  {
+    "path": "church-govern-core/includes/faqs.php",
+    "type": "blob",
+    "size": 7061,
+    "sha": "df23b8033e42c0d785ff5f853526ab51a3e17603"
+  },
+  {
+    "path": "church-govern-core/includes/form-mail.php",
+    "type": "blob",
+    "size": 12094,
+    "sha": "6241cb478f065b41dd28b5e793aea4dfd1fa96ad"
+  },
+  {
+    "path": "church-govern-core/includes/forms.php",
+    "type": "blob",
+    "size": 17645,
+    "sha": "0e9ee170908416185a18df4be6e5e441cd9e969d"
+  },
+  {
+    "path": "church-govern-core/includes/global-settings.php",
+    "type": "blob",
+    "size": 11766,
+    "sha": "8d3839fe07efc3b740026b4ec225d7f0ed9577b3"
+  },
+  {
+    "path": "church-govern-core/includes/landing-imports.php",
+    "type": "blob",
+    "size": 7881,
+    "sha": "236b9c7b7e212c1f3daff83e356f3797fe608f43"
+  },
+  {
+    "path": "church-govern-core/includes/maintenance-lock.php",
+    "type": "blob",
+    "size": 1484,
+    "sha": "20e8ffb99a9ec9d5df9fe3560d8e7dc97ec98b7b"
+  },
+  {
+    "path": "church-govern-core/includes/module-cards.php",
+    "type": "blob",
+    "size": 10994,
+    "sha": "0da1495a619afa9e4e9655cd05eedfa731f29689"
+  },
+  {
+    "path": "church-govern-core/includes/modules.php",
+    "type": "blob",
+    "size": 22292,
+    "sha": "c9b129179108add6f54c0c2a884174393477bec0"
+  },
+  {
+    "path": "church-govern-core/includes/navigation.php",
+    "type": "blob",
+    "size": 40558,
+    "sha": "4a4abd75a2b6314610e88db5b64d07ef128b47e3"
+  },
+  {
+    "path": "church-govern-core/includes/privacy.php",
+    "type": "blob",
+    "size": 3570,
+    "sha": "bcf1b95784cf603bd1a6e236bef2e871901a29e2"
+  },
+  {
+    "path": "church-govern-core/includes/product-layouts.php",
+    "type": "blob",
+    "size": 11493,
+    "sha": "6895f4f789919900bf96e986dd39885a9bef1757"
+  },
+  {
+    "path": "church-govern-core/includes/product-lists.php",
+    "type": "blob",
+    "size": 20932,
+    "sha": "412c974ee1bfa94119b19c7036c875ced5da5d78"
+  },
+  {
+    "path": "church-govern-core/includes/security.php",
+    "type": "blob",
+    "size": 15488,
+    "sha": "f5bea70d3aa1ecbe61bcaaa60358ad733377c612"
+  },
+  {
+    "path": "church-govern-core/includes/seo-pages.php",
+    "type": "blob",
+    "size": 27237,
+    "sha": "01fef73fac37b62169f2fcf3f8992eb308e10dff"
+  },
+  {
+    "path": "church-govern-core/includes/seo.php",
+    "type": "blob",
+    "size": 62705,
+    "sha": "9b96279fc6934a6b79f80d5daaf54c9bc148b182"
+  },
+  {
+    "path": "church-govern-core/includes/single.php",
+    "type": "blob",
+    "size": 2486,
+    "sha": "a9ef7c4aae6fde02afde2039c7e624305c6a88b8"
+  },
+  {
+    "path": "church-govern-core/includes/submission-service.php",
+    "type": "blob",
+    "size": 11264,
+    "sha": "9ae01b01bc6ef8842ec2c67bbfe35c62dcfe710b"
+  },
+  {
+    "path": "church-govern-core/includes/topics.php",
+    "type": "blob",
+    "size": 7847,
+    "sha": "f380e9a5d0d7f0c02d3614f5367b38be4534d11c"
+  },
+  {
+    "path": "church-govern-core/includes/voices.php",
+    "type": "blob",
+    "size": 10238,
+    "sha": "466de51291e7cb3a80c6599a5ee650545abc75d5"
+  },
+  {
+    "path": "church-govern",
+    "type": "tree",
+    "size": 0,
+    "sha": "b36fc5eb5098a8830896c9bbfd042244c9ece828"
+  },
+  {
+    "path": "church-govern/LICENSE",
+    "type": "blob",
+    "size": 293,
+    "sha": "2e12d855ae5a5db64dc2073b6e68e8019b9d2168"
+  },
+  {
+    "path": "church-govern/assets",
+    "type": "tree",
+    "size": 0,
+    "sha": "82a425e65d455e1c2b8fbdfee94ea1a8b4628694"
+  },
+  {
+    "path": "church-govern/assets/css",
+    "type": "tree",
+    "size": 0,
+    "sha": "f5f0ccd2281a693f86cbef30a8969cb91818abbf"
+  },
+  {
+    "path": "church-govern/assets/css/editor-blocks.css",
+    "type": "blob",
+    "size": 27645,
+    "sha": "7d3de42c8266ca557ba3d8377b402eaec9aec7a7"
+  },
+  {
+    "path": "church-govern/assets/css/theme.css",
+    "type": "blob",
+    "size": 209130,
+    "sha": "5eb2414991f6e5e28c298c406e74bc53d32037cd"
+  },
+  {
+    "path": "church-govern/assets/fonts",
+    "type": "tree",
+    "size": 0,
+    "sha": "84245e38e07f354b6709457971737af5907835ba"
+  },
+  {
+    "path": "church-govern/assets/fonts/inter-400.ttf",
+    "type": "blob",
+    "size": 324820,
+    "sha": "399a6e0c3f49ee302979e0e1679817123c942a0f"
+  },
+  {
+    "path": "church-govern/assets/fonts/inter-400.woff2",
+    "type": "blob",
+    "size": 108216,
+    "sha": "b968a0e77a1004b5754af67000d348c358806174"
+  },
+  {
+    "path": "church-govern/assets/fonts/inter-700.ttf",
+    "type": "blob",
+    "size": 326468,
+    "sha": "9c2f47d4aba1db10139c5ce707943a0aa3e05c19"
+  },
+  {
+    "path": "church-govern/assets/fonts/inter-700.woff2",
+    "type": "blob",
+    "size": 112200,
+    "sha": "c98f2377973d179fc82eda2fdb7a7783ce46fd8c"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-300-italic.ttf",
+    "type": "blob",
+    "size": 46400,
+    "sha": "4b1f53ab1699242a7a0f6692a54b440bc78feb72"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-300-italic.woff2",
+    "type": "blob",
+    "size": 20440,
+    "sha": "17be0ed4bea331ca283a653611e5d2bc7829d8e5"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-300.ttf",
+    "type": "blob",
+    "size": 74372,
+    "sha": "9ac54bf6826b0cdb4992c466a847e0a38c820234"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-300.woff2",
+    "type": "blob",
+    "size": 26980,
+    "sha": "b91baac1b9073f5d9978312a236fa2cd79102dde"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-400.ttf",
+    "type": "blob",
+    "size": 72312,
+    "sha": "ec1ed55ee78fc3e0495ca0bdbb3543795bf9d8e7"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-400.woff2",
+    "type": "blob",
+    "size": 27664,
+    "sha": "b2b8ca721d2b8a75feb58d6c6a3fc2cf253e7135"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-700.ttf",
+    "type": "blob",
+    "size": 70576,
+    "sha": "ca5113e382ef4bd80b5e1b4c1349c6018468371a"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-700.woff2",
+    "type": "blob",
+    "size": 26928,
+    "sha": "fe48918cb182e0d0ad3bb9d554262c90d18a3042"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-900.ttf",
+    "type": "blob",
+    "size": 66608,
+    "sha": "8750c0e5007f0c95d63d558c7c57a83b876084e7"
+  },
+  {
+    "path": "church-govern/assets/fonts/lato-900.woff2",
+    "type": "blob",
+    "size": 26688,
+    "sha": "a384782c14823850b79e2f1616437a728b08a62d"
+  },
+  {
+    "path": "church-govern/assets/fonts/lora-400-italic.ttf",
+    "type": "blob",
+    "size": 137328,
+    "sha": "b2314c7bf579913204d94d373293659a2ed30bee"
+  },
+  {
+    "path": "church-govern/assets/fonts/lora-400-italic.woff2",
+    "type": "blob",
+    "size": 50568,
+    "sha": "f7324bdbd3282d1bdf12d84fdc91f5f82aed8a30"
+  },
+  {
+    "path": "church-govern/assets/fonts/lora-400.ttf",
+    "type": "blob",
+    "size": 132188,
+    "sha": "bd2b7cb70e023eb657c1814291262b55ea525329"
+  },
+  {
+    "path": "church-govern/assets/fonts/lora-400.woff2",
+    "type": "blob",
+    "size": 46920,
+    "sha": "5a253a7fb9f1ac19886aedc34387652f3bec6928"
+  },
+  {
+    "path": "church-govern/assets/images",
+    "type": "tree",
+    "size": 0,
+    "sha": "4f520f3752fffc93f6d59c58bd39e8255c9a0855"
+  },
+  {
+    "path": "church-govern/assets/images/blog-bible.png",
+    "type": "blob",
+    "size": 146013,
+    "sha": "da1354e753dfea91397c63daae6ae4d5d109e529"
+  },
+  {
+    "path": "church-govern/assets/images/blog-community.png",
+    "type": "blob",
+    "size": 217081,
+    "sha": "49e1f6cd79ebe8b058d9d3f5e002b50745f9abb9"
+  },
+  {
+    "path": "church-govern/assets/images/blog-team.png",
+    "type": "blob",
+    "size": 182917,
+    "sha": "f81d05d9f731f0a0175ac71810a9934e419053b9"
+  },
+  {
+    "path": "church-govern/assets/images/challenge-collaboration-v2.png",
+    "type": "blob",
+    "size": 446885,
+    "sha": "e8082e52323bff76f7610a97a9ce25b3aff1a114"
+  },
+  {
+    "path": "church-govern/assets/images/challenge-insights-v2.png",
+    "type": "blob",
+    "size": 421108,
+    "sha": "30feaf55a7b484044d7441a9411ec045b04b824a"
+  },
+  {
+    "path": "church-govern/assets/images/challenge-scattered-v2.png",
+    "type": "blob",
+    "size": 503562,
+    "sha": "0c8cc0989309eb04fb38730f32c84b6f7eb4a95a"
+  },
+  {
+    "path": "church-govern/assets/images/challenge-time-v2.png",
+    "type": "blob",
+    "size": 450934,
+    "sha": "f0b81e047da3b712a27f5b56211e884ffadf6259"
+  },
+  {
+    "path": "church-govern/assets/images/church-community.png",
+    "type": "blob",
+    "size": 144746,
+    "sha": "b50ddb50fc43414dab336e6d20353b1e35641a4b"
+  },
+  {
+    "path": "church-govern/assets/images/feedback-church-interior.png",
+    "type": "blob",
+    "size": 1786939,
+    "sha": "ea6b97e63fed25904a9c36b2be7d2d3239e286a2"
+  },
+  {
+    "path": "church-govern/assets/images/figma",
+    "type": "tree",
+    "size": 0,
+    "sha": "ad6a817ae463335b44fe64aaaafffc4bceda7393"
+  },
+  {
+    "path": "church-govern/assets/images/figma/about-hero.jpg",
+    "type": "blob",
+    "size": 905729,
+    "sha": "5c9c2e0fc1f11a084bd9f479a3999425908ed555"
+  },
+  {
+    "path": "church-govern/assets/images/figma/about-hero.png",
+    "type": "blob",
+    "size": 832917,
+    "sha": "1001162b1e4488d6aa44e957a8267c065bed3d66"
+  },
+  {
+    "path": "church-govern/assets/images/figma/about-purvaj.png",
+    "type": "blob",
+    "size": 141488,
+    "sha": "64c82bea8783820836ea74310518bf8cff3bb4c5"
+  },
+  {
+    "path": "church-govern/assets/images/figma/about-story.png",
+    "type": "blob",
+    "size": 28365,
+    "sha": "772d106f09e595ccf1c7c8c905a857d363b8450d"
+  },
+  {
+    "path": "church-govern/assets/images/figma/article-dark-author.png",
+    "type": "blob",
+    "size": 3013,
+    "sha": "c381f32fd2c6c44413f16c27e27ece5ccb5cb3bd"
+  },
+  {
+    "path": "church-govern/assets/images/figma/article-dark-hero.jpg",
+    "type": "blob",
+    "size": 2136141,
+    "sha": "ef768e5583cb38888899c920f70d2f4cf0939d6a"
+  },
+  {
+    "path": "church-govern/assets/images/figma/article-light-author.png",
+    "type": "blob",
+    "size": 302648,
+    "sha": "03e4bf9a82288f14559251a1b9306fac34b1c108"
+  },
+  {
+    "path": "church-govern/assets/images/figma/article-light-church-fixed.png",
+    "type": "blob",
+    "size": 3834261,
+    "sha": "ae5d626305548ea8943799f31be94e18a7976864"
+  },
+  {
+    "path": "church-govern/assets/images/figma/article-light-church.png",
+    "type": "blob",
+    "size": 471980,
+    "sha": "d8351db83e70f22f1edb097f0f4a851fba3be516"
+  },
+  {
+    "path": "church-govern/assets/images/figma/article-light-hero.jpg",
+    "type": "blob",
+    "size": 221511,
+    "sha": "fcefc8f22f928c9612be4b3face892a8eeb8da9d"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-1.jpg",
+    "type": "blob",
+    "size": 757490,
+    "sha": "148fb5fbf9f5749d406b9d4741dfc737c522d3ae"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-2.jpg",
+    "type": "blob",
+    "size": 643711,
+    "sha": "7a7870125e821eb05baf0c3ada74eb5fc3d3c69d"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-3.jpg",
+    "type": "blob",
+    "size": 508865,
+    "sha": "198c1e877dbc4be6f1595c897b5b9a89802b7598"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-4.jpg",
+    "type": "blob",
+    "size": 2136141,
+    "sha": "ef768e5583cb38888899c920f70d2f4cf0939d6a"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-5.jpg",
+    "type": "blob",
+    "size": 1211078,
+    "sha": "4c7771ad63c36aadebc0dc01176e96ab9adc9d0a"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-6.jpg",
+    "type": "blob",
+    "size": 709493,
+    "sha": "c657433d6eb5eadb595c8b78c4f4f48c8a32d1c4"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-7.jpg",
+    "type": "blob",
+    "size": 183834,
+    "sha": "46c6caab2980db47d6cd15b956c65a66f63621d2"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-8.jpg",
+    "type": "blob",
+    "size": 750755,
+    "sha": "2898a7655cc4cb9017e1f66608941da17bd20219"
+  },
+  {
+    "path": "church-govern/assets/images/figma/blog-hero.jpg",
+    "type": "blob",
+    "size": 175398,
+    "sha": "c4d3a86dfe4eeb37c241e5ac718d892d1977241f"
+  },
+  {
+    "path": "church-govern/assets/images/figma/christmas-special-offer.png",
+    "type": "blob",
+    "size": 2042408,
+    "sha": "0abda5b59cb36c9e0d4dc0975d9a746cc1522d13"
+  },
+  {
+    "path": "church-govern/assets/images/figma/contact-hero.jpg",
+    "type": "blob",
+    "size": 394005,
+    "sha": "1f72cfff7cdca817ca510d432fa425ca7b544f93"
+  },
+  {
+    "path": "church-govern/assets/images/figma/fam-n-me-logo.png",
+    "type": "blob",
+    "size": 2721,
+    "sha": "9f5d98f4437193301d047ba7fa5da462a1259973"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-challenge-admin.svg",
+    "type": "blob",
+    "size": 1792,
+    "sha": "df5c0fef4a09897694ddc5fda368946bbbf736b7"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-challenge-clergy.svg",
+    "type": "blob",
+    "size": 1038,
+    "sha": "990abbb664faef8a2dae90a8ce64e79d69ffdba8"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-challenge-member.svg",
+    "type": "blob",
+    "size": 1541,
+    "sha": "4656da82f42c0cb5feeb6f4dcc897fff45185766"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-hero.jpg",
+    "type": "blob",
+    "size": 221511,
+    "sha": "fcefc8f22f928c9612be4b3face892a8eeb8da9d"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-pillar-1.png",
+    "type": "blob",
+    "size": 541465,
+    "sha": "05210575a35bdbda83a82079b84fc83567aa5875"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-pillar-2.png",
+    "type": "blob",
+    "size": 432731,
+    "sha": "7905b2ff1f2ca930e9b931ebdd752878eb8bdd51"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-pillar-3.png",
+    "type": "blob",
+    "size": 663423,
+    "sha": "082995bdc5e2de1c827835dea8fec46e0a58fcce"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-pillar-admin-icon.svg",
+    "type": "blob",
+    "size": 2225,
+    "sha": "b6c2ed0f619271ce75fab5b9f39e76e7b2912035"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-testimonial-fixed.png",
+    "type": "blob",
+    "size": 222898,
+    "sha": "f5df06944e50e009db7081f8f2b72d0b23ce42b9"
+  },
+  {
+    "path": "church-govern/assets/images/figma/home-testimonial.png",
+    "type": "blob",
+    "size": 33948,
+    "sha": "85f84459f4e2b582a991cf2452f5e53939e75e61"
+  },
+  {
+    "path": "church-govern/assets/images/figma/logo.png",
+    "type": "blob",
+    "size": 13070,
+    "sha": "ea36c2ed955c099d464f938fcfbded373170301b"
+  },
+  {
+    "path": "church-govern/assets/images/figma/products-hero.jpg",
+    "type": "blob",
+    "size": 306702,
+    "sha": "32526acfbc987c42d9bcc4872ebf10a2b01bd051"
+  },
+  {
+    "path": "church-govern/assets/images/hero-about.png",
+    "type": "blob",
+    "size": 129270,
+    "sha": "7e9162253c8732cc9bc4a0cd038aa0f9c5414f81"
+  },
+  {
+    "path": "church-govern/assets/images/hero-home.png",
+    "type": "blob",
+    "size": 1258746,
+    "sha": "758f0a150efe5b8915d6f41d1e9ed35d85979a92"
+  },
+  {
+    "path": "church-govern/assets/images/hero-products.jpg",
+    "type": "blob",
+    "size": 325056,
+    "sha": "88a67d4f49c38a5b1c5f58d6dc005fc1c2373ea3"
+  },
+  {
+    "path": "church-govern/assets/images/heroes",
+    "type": "tree",
+    "size": 0,
+    "sha": "d38327bd1b9da940556a65074aa3cb13fee0fa72"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/about-hero.png",
+    "type": "blob",
+    "size": 832917,
+    "sha": "1001162b1e4488d6aa44e957a8267c065bed3d66"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/article-dark-hero.jpg",
+    "type": "blob",
+    "size": 2136141,
+    "sha": "ef768e5583cb38888899c920f70d2f4cf0939d6a"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/article-light-hero.jpg",
+    "type": "blob",
+    "size": 221511,
+    "sha": "fcefc8f22f928c9612be4b3face892a8eeb8da9d"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/blog-hero.jpg",
+    "type": "blob",
+    "size": 175398,
+    "sha": "c4d3a86dfe4eeb37c241e5ac718d892d1977241f"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/campaign-hero.png",
+    "type": "blob",
+    "size": 663423,
+    "sha": "082995bdc5e2de1c827835dea8fec46e0a58fcce"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/contact-hero.jpg",
+    "type": "blob",
+    "size": 394005,
+    "sha": "1f72cfff7cdca817ca510d432fa425ca7b544f93"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/home-hero.jpg",
+    "type": "blob",
+    "size": 221511,
+    "sha": "fcefc8f22f928c9612be4b3face892a8eeb8da9d"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/module-detail-hero.png",
+    "type": "blob",
+    "size": 432731,
+    "sha": "7905b2ff1f2ca930e9b931ebdd752878eb8bdd51"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/products-hero.jpg",
+    "type": "blob",
+    "size": 306702,
+    "sha": "32526acfbc987c42d9bcc4872ebf10a2b01bd051"
+  },
+  {
+    "path": "church-govern/assets/images/heroes/seo-hero.png",
+    "type": "blob",
+    "size": 432731,
+    "sha": "7905b2ff1f2ca930e9b931ebdd752878eb8bdd51"
+  },
+  {
+    "path": "church-govern/assets/images/icons",
+    "type": "tree",
+    "size": 0,
+    "sha": "761109ed1a14718b25b4d3b67fc38e78ec8cd4c5"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Asset management.svg",
+    "type": "blob",
+    "size": 2256,
+    "sha": "2d542fe1a9d2fa33be7381561b60105530ce015d"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Cemetery management.svg",
+    "type": "blob",
+    "size": 2712,
+    "sha": "341c22c2c7b661956b3951837cbd391dab4f3a93"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Church Dashboard.svg",
+    "type": "blob",
+    "size": 2352,
+    "sha": "fa49aacad24c8f6f97de5d337590a45ffc7dff2f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Church administration.svg",
+    "type": "blob",
+    "size": 2658,
+    "sha": "6f25ad766fa354fa6601aad17c7fb2c3efeadd04"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Communication.svg",
+    "type": "blob",
+    "size": 1445,
+    "sha": "d32ce9d556a0d69423f329ef387dac5fbb6dded1"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Dedicated Support.svg",
+    "type": "blob",
+    "size": 1295,
+    "sha": "9f345221b27e0cab7eb3ea7fb5777e80c77509de"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Family management.svg",
+    "type": "blob",
+    "size": 2330,
+    "sha": "21d74a5538078f225e3be533ce0b626566e4570d"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Finance Management.svg",
+    "type": "blob",
+    "size": 2277,
+    "sha": "ce28d6dc97a60b5e6d2da9c56cfc0a5965baa4c6"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Instant setup.svg",
+    "type": "blob",
+    "size": 765,
+    "sha": "7c6f07785162331aa8ec4774f7488837c207dd31"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS",
+    "type": "tree",
+    "size": 0,
+    "sha": "c740b430eeb50cba8db3b57f510ae18d161573a8"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/Background (2).svg",
+    "type": "blob",
+    "size": 1336,
+    "sha": "8cdb8976bbf5deaf07982b46b4c20f5623c702bf"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/CHURCH DIRECTORY.svg",
+    "type": "blob",
+    "size": 1369,
+    "sha": "ebaa15ffad2ca11ae809fff9a95b1eab9eac1336"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/FAMILY PROFILE.svg",
+    "type": "blob",
+    "size": 1336,
+    "sha": "6866728486b856b51050e2f74f73e590d7d93480"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/MEMBER DASHBOARD.svg",
+    "type": "blob",
+    "size": 1524,
+    "sha": "d6ed5ccbf3fde27e307ed6f9fb7b9a98ba8b04db"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/NOTIFICATION.svg",
+    "type": "blob",
+    "size": 1423,
+    "sha": "0f2de3ac62bffa44b59be69cfb5a3a2d65eebd0f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/PROFILE MANAGEMENT.svg",
+    "type": "blob",
+    "size": 2201,
+    "sha": "4e81eac785c5321d5f288629337f0a82f41f4d6f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/MEMBER SUIT ICONS/SUBSRIPTION HISTORY.svg",
+    "type": "blob",
+    "size": 1354,
+    "sha": "3f9e9ecb7a194368bfb55ad653245d7535d7ea9f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Profile management.svg",
+    "type": "blob",
+    "size": 2201,
+    "sha": "4e81eac785c5321d5f288629337f0a82f41f4d6f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Record Management.svg",
+    "type": "blob",
+    "size": 1965,
+    "sha": "3bc76d6fea5f0ad20234d7247f328ab569aa0748"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Request and certificate processing.svg",
+    "type": "blob",
+    "size": 1818,
+    "sha": "3aca1f9fa04bd79c04f39c07b117129035d0de96"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Secure and Compliant.svg",
+    "type": "blob",
+    "size": 1131,
+    "sha": "a8b59394b7f4d1c0d1db0434f8d17973996e3b30"
+  },
+  {
+    "path": "church-govern/assets/images/icons/Subscription history.svg",
+    "type": "blob",
+    "size": 1354,
+    "sha": "3f9e9ecb7a194368bfb55ad653245d7535d7ea9f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/badge.svg",
+    "type": "blob",
+    "size": 340,
+    "sha": "568b050360f5da758c2292c59ef32666ea05e7aa"
+  },
+  {
+    "path": "church-govern/assets/images/icons/benefits-member-calendar.svg",
+    "type": "blob",
+    "size": 430,
+    "sha": "9fe8851ec7105a6a10be323733c8ce9609ae163d"
+  },
+  {
+    "path": "church-govern/assets/images/icons/benefits-member-decoration.svg",
+    "type": "blob",
+    "size": 440,
+    "sha": "0e00a04bc1ff1584faf041b8676442ed1339fce2"
+  },
+  {
+    "path": "church-govern/assets/images/icons/benefits-member-heart.svg",
+    "type": "blob",
+    "size": 253,
+    "sha": "6aef8de2e5274185ff7cc4630cee4a4b3d703acf"
+  },
+  {
+    "path": "church-govern/assets/images/icons/benefits-member-user.svg",
+    "type": "blob",
+    "size": 234,
+    "sha": "bb7848f55a8ee3a26c439d67b60a00207537a523"
+  },
+  {
+    "path": "church-govern/assets/images/icons/book.svg",
+    "type": "blob",
+    "size": 298,
+    "sha": "bfdf3601bc1682d3ee238cbd7a18d3211a5b1b01"
+  },
+  {
+    "path": "church-govern/assets/images/icons/calendar.svg",
+    "type": "blob",
+    "size": 289,
+    "sha": "4cf9e6ad12411843b65efd0f01be648326f60d14"
+  },
+  {
+    "path": "church-govern/assets/images/icons/chart.svg",
+    "type": "blob",
+    "size": 204,
+    "sha": "e8262f811f476ae6defa4a00789f0ac2b6644b42"
+  },
+  {
+    "path": "church-govern/assets/images/icons/church.svg",
+    "type": "blob",
+    "size": 231,
+    "sha": "456b632110c61ba017d5d5931e9b639467920523"
+  },
+  {
+    "path": "church-govern/assets/images/icons/clock.svg",
+    "type": "blob",
+    "size": 213,
+    "sha": "1475ea096ed866a0b699d0ee2cf8fac33855abb8"
+  },
+  {
+    "path": "church-govern/assets/images/icons/compass.svg",
+    "type": "blob",
+    "size": 224,
+    "sha": "46165f4c62816a2cd7f46a122b3af5308565eb0f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/cross.svg",
+    "type": "blob",
+    "size": 188,
+    "sha": "8c10abe4b191dde4b371b849d24d6bbf989791a1"
+  },
+  {
+    "path": "church-govern/assets/images/icons/dashboard.svg",
+    "type": "blob",
+    "size": 351,
+    "sha": "582916b8e3528cfcea887b9c9cb12c1a05cb07f1"
+  },
+  {
+    "path": "church-govern/assets/images/icons/demo",
+    "type": "tree",
+    "size": 0,
+    "sha": "20554d2d94b7984c4509388db5ab95e01153a504"
+  },
+  {
+    "path": "church-govern/assets/images/icons/demo/dedicated-support.svg",
+    "type": "blob",
+    "size": 1295,
+    "sha": "9f345221b27e0cab7eb3ea7fb5777e80c77509de"
+  },
+  {
+    "path": "church-govern/assets/images/icons/demo/instant-setup.svg",
+    "type": "blob",
+    "size": 765,
+    "sha": "7c6f07785162331aa8ec4774f7488837c207dd31"
+  },
+  {
+    "path": "church-govern/assets/images/icons/demo/secure-compliant.svg",
+    "type": "blob",
+    "size": 1131,
+    "sha": "a8b59394b7f4d1c0d1db0434f8d17973996e3b30"
+  },
+  {
+    "path": "church-govern/assets/images/icons/devices.svg",
+    "type": "blob",
+    "size": 318,
+    "sha": "ee910c649bfce26ad3733da5f83b38e8ddc10c14"
+  },
+  {
+    "path": "church-govern/assets/images/icons/heart.svg",
+    "type": "blob",
+    "size": 273,
+    "sha": "3ec7ac37f18fa6d1104a5df92dc42eb46495e4b8"
+  },
+  {
+    "path": "church-govern/assets/images/icons/info.svg",
+    "type": "blob",
+    "size": 219,
+    "sha": "7e2a410a76c49d0ce6ce68247913b4a0e23c3ee6"
+  },
+  {
+    "path": "church-govern/assets/images/icons/layers.svg",
+    "type": "blob",
+    "size": 231,
+    "sha": "a3a8b435a1d7bcc343ac80aa79ad36411cb12a39"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite",
+    "type": "tree",
+    "size": 0,
+    "sha": "55ad773badc058b97b565d50d7e4b651959d1a4f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/church-directory.svg",
+    "type": "blob",
+    "size": 1369,
+    "sha": "ebaa15ffad2ca11ae809fff9a95b1eab9eac1336"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/family-profile.svg",
+    "type": "blob",
+    "size": 1336,
+    "sha": "6866728486b856b51050e2f74f73e590d7d93480"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/member-dashboard.svg",
+    "type": "blob",
+    "size": 1524,
+    "sha": "d6ed5ccbf3fde27e307ed6f9fb7b9a98ba8b04db"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/notifications.svg",
+    "type": "blob",
+    "size": 1423,
+    "sha": "0f2de3ac62bffa44b59be69cfb5a3a2d65eebd0f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/profile-management.svg",
+    "type": "blob",
+    "size": 2201,
+    "sha": "4e81eac785c5321d5f288629337f0a82f41f4d6f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/request-submission.svg",
+    "type": "blob",
+    "size": 1336,
+    "sha": "8cdb8976bbf5deaf07982b46b4c20f5623c702bf"
+  },
+  {
+    "path": "church-govern/assets/images/icons/member-suite/subscription-history.svg",
+    "type": "blob",
+    "size": 1354,
+    "sha": "3f9e9ecb7a194368bfb55ad653245d7535d7ea9f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/message.svg",
+    "type": "blob",
+    "size": 260,
+    "sha": "a6da73ed975c05e8b55c5a941414b47552bc3351"
+  },
+  {
+    "path": "church-govern/assets/images/icons/network.svg",
+    "type": "blob",
+    "size": 335,
+    "sha": "a6118f664518f23d3f7356b0c753d4d479a53af6"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite",
+    "type": "tree",
+    "size": 0,
+    "sha": "c1136d411be3b39d1e4d610a18ea01ac56bd9c64"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/asset-management.svg",
+    "type": "blob",
+    "size": 2256,
+    "sha": "2d542fe1a9d2fa33be7381561b60105530ce015d"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/cemetery-management.svg",
+    "type": "blob",
+    "size": 2712,
+    "sha": "341c22c2c7b661956b3951837cbd391dab4f3a93"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/church-administration.svg",
+    "type": "blob",
+    "size": 2658,
+    "sha": "6f25ad766fa354fa6601aad17c7fb2c3efeadd04"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/church-dashboard.svg",
+    "type": "blob",
+    "size": 2352,
+    "sha": "fa49aacad24c8f6f97de5d337590a45ffc7dff2f"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/communication.svg",
+    "type": "blob",
+    "size": 1445,
+    "sha": "d32ce9d556a0d69423f329ef387dac5fbb6dded1"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/family-management.svg",
+    "type": "blob",
+    "size": 2330,
+    "sha": "21d74a5538078f225e3be533ce0b626566e4570d"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/finance-management.svg",
+    "type": "blob",
+    "size": 2277,
+    "sha": "ce28d6dc97a60b5e6d2da9c56cfc0a5965baa4c6"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/record-management.svg",
+    "type": "blob",
+    "size": 1965,
+    "sha": "3bc76d6fea5f0ad20234d7247f328ab569aa0748"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/reports.svg",
+    "type": "blob",
+    "size": 1387,
+    "sha": "073bc83dfad5f7fa7d0d3aa94aabef69dcfd39b9"
+  },
+  {
+    "path": "church-govern/assets/images/icons/office-suite/request-certificate-processing.svg",
+    "type": "blob",
+    "size": 1818,
+    "sha": "3aca1f9fa04bd79c04f39c07b117129035d0de96"
+  },
+  {
+    "path": "church-govern/assets/images/icons/package.svg",
+    "type": "blob",
+    "size": 243,
+    "sha": "b82c5b22fcd45930da7e389f5b4e8139caffe57c"
+  },
+  {
+    "path": "church-govern/assets/images/icons/phone.svg",
+    "type": "blob",
+    "size": 1451,
+    "sha": "702b1c0a5512b08562bdb5a9ff3931e59ca7c531"
+  },
+  {
+    "path": "church-govern/assets/images/icons/related-resources.svg",
+    "type": "blob",
+    "size": 673,
+    "sha": "cee275451784d69ca7f73625d0edc9d187df9d37"
+  },
+  {
+    "path": "church-govern/assets/images/icons/reports.svg",
+    "type": "blob",
+    "size": 1387,
+    "sha": "073bc83dfad5f7fa7d0d3aa94aabef69dcfd39b9"
+  },
+  {
+    "path": "church-govern/assets/images/icons/shield.svg",
+    "type": "blob",
+    "size": 253,
+    "sha": "93aaa864459d31ebcfbbc8839875bccd085cd3cb"
+  },
+  {
+    "path": "church-govern/assets/images/icons/sparkles.svg",
+    "type": "blob",
+    "size": 367,
+    "sha": "7e934c578e8615c2cbf0ccab11978bcb4541a639"
+  },
+  {
+    "path": "church-govern/assets/images/icons/user.svg",
+    "type": "blob",
+    "size": 221,
+    "sha": "ae6109627dc80e1e9a0fb011a394e4188b770029"
+  },
+  {
+    "path": "church-govern/assets/images/icons/users.svg",
+    "type": "blob",
+    "size": 286,
+    "sha": "eb9b8dde89ace9254a99ef406aaf8f5d0293f950"
+  },
+  {
+    "path": "church-govern/assets/images/icons/wallet.svg",
+    "type": "blob",
+    "size": 290,
+    "sha": "ec001c004fe9b8b56498210483204b582d978dd2"
+  },
+  {
+    "path": "church-govern/assets/images/icons/zap.svg",
+    "type": "blob",
+    "size": 201,
+    "sha": "b706f78e127002998672bd9148aa705f13adfe25"
+  },
+  {
+    "path": "church-govern/assets/images/logo-gold.png",
+    "type": "blob",
+    "size": 13789,
+    "sha": "046d92bbc30357efbbaa76876fd82f70dad6a824"
+  },
+  {
+    "path": "church-govern/assets/images/module-dashboard-church-overview.png",
+    "type": "blob",
+    "size": 56872,
+    "sha": "1dcb16c1211247dc62821f2f662ca1140ea5a154"
+  },
+  {
+    "path": "church-govern/assets/images/module-dashboard-screenshot.png",
+    "type": "blob",
+    "size": 119924,
+    "sha": "da2968b811f9b97b668986bc9e6e1a4c82a5e5b1"
+  },
+  {
+    "path": "church-govern/assets/images/optimized",
+    "type": "tree",
+    "size": 0,
+    "sha": "9b4794a2e09afb70b133d66e339531ea7b3a2d00"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/blog-bible.png-160.webp",
+    "type": "blob",
+    "size": 2066,
+    "sha": "08be97268774f9dd3cfd6872ddb913bcb06b0161"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/blog-bible.png-400.webp",
+    "type": "blob",
+    "size": 9340,
+    "sha": "5d9978273a27306292815ab63fdd8a8baa5462d8"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/blog-community.png-160.webp",
+    "type": "blob",
+    "size": 5182,
+    "sha": "1eb4c0b8de9fcee90f7d7adff4365befe930b782"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/blog-community.png-400.webp",
+    "type": "blob",
+    "size": 16520,
+    "sha": "b03be90df763ab901e00bff4fe68d3c559d7e4b8"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/blog-team.png-160.webp",
+    "type": "blob",
+    "size": 4044,
+    "sha": "dfb6ab1f432c9f658daf63a5a983efd24f5c088e"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/blog-team.png-400.webp",
+    "type": "blob",
+    "size": 12304,
+    "sha": "061af0dd17a8c35ab6eaacaebb5b436524e20e1b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-collaboration-v2.png-160.webp",
+    "type": "blob",
+    "size": 2406,
+    "sha": "53518149368398bae9f3c2199206938475d20778"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-collaboration-v2.png-480.webp",
+    "type": "blob",
+    "size": 9424,
+    "sha": "b6b234dfea4b7879caa00426d986ce4df6533dd6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-collaboration-v2.png-766.webp",
+    "type": "blob",
+    "size": 17582,
+    "sha": "df6d7706fe425090934e9c232ade4474b525e783"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-insights-v2.png-160.webp",
+    "type": "blob",
+    "size": 2120,
+    "sha": "ae6ba282b674164e06406bd7043f9913ca119e54"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-insights-v2.png-480.webp",
+    "type": "blob",
+    "size": 8050,
+    "sha": "7df371dc250e9a03e7cfd189644da99bc78374dc"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-insights-v2.png-766.webp",
+    "type": "blob",
+    "size": 15372,
+    "sha": "44d55e7e46a6428b43f2de6c6e570853486cd0ed"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-scattered-v2.png-160.webp",
+    "type": "blob",
+    "size": 3262,
+    "sha": "aa7df505de31e431b4e885dd8d41bc39b3146a2d"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-scattered-v2.png-480.webp",
+    "type": "blob",
+    "size": 16600,
+    "sha": "588115a61c26ab9d96b5d7cdddcf994aeb69b5e8"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-scattered-v2.png-766.webp",
+    "type": "blob",
+    "size": 35112,
+    "sha": "a4caf552720cae0ccef9143f228f6625ea478147"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-time-v2.png-160.webp",
+    "type": "blob",
+    "size": 3582,
+    "sha": "6a46c820efa5498e5a6ef1cf094d115dbc40f6a3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-time-v2.png-480.webp",
+    "type": "blob",
+    "size": 14060,
+    "sha": "aee0d28b8cbfd09d40c6612e11e464f48e79a6a5"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/challenge-time-v2.png-766.webp",
+    "type": "blob",
+    "size": 24880,
+    "sha": "3580a65628e91da600eae5db1e0abd8d3f433adf"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/church-community.png-160.webp",
+    "type": "blob",
+    "size": 2680,
+    "sha": "6e19ccb0db40c81fce07d105d19c37376329ed2a"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/church-community.png-396.webp",
+    "type": "blob",
+    "size": 9696,
+    "sha": "cb9d9151e9b3ba35e28bc045c3a18fd1511b7973"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/feedback-church-interior.png-160.webp",
+    "type": "blob",
+    "size": 8556,
+    "sha": "3d89ac7a86fef43ecd926ca70cafb49258500edd"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/feedback-church-interior.png-480.webp",
+    "type": "blob",
+    "size": 38820,
+    "sha": "f3a8a5b5310a825f707714fd529f0ce7bfa0c5b4"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/feedback-church-interior.png-800.webp",
+    "type": "blob",
+    "size": 78666,
+    "sha": "e1ef2e113b156540fe09172cede383e665801742"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/feedback-church-interior.png-948.webp",
+    "type": "blob",
+    "size": 97992,
+    "sha": "f993ab396b3003ff5e7073f0074b5de5dee92aec"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 140882,
+    "sha": "8fecaaaa7822f0cfebd0f432807685fac0d45d23"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 3426,
+    "sha": "4c1bfe9bdb9f763347fe8a8d6726a529eb8451eb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 20578,
+    "sha": "6f1114ceaf844e0c1b4f74637304c036e49291ff"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 50012,
+    "sha": "88d6363bc43cf1ff17cb8199c6be7f205bf01637"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.png-1440.webp",
+    "type": "blob",
+    "size": 22310,
+    "sha": "35d961d3bf420eb6b6b2896cbcb1b4a02eeed05b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.png-160.webp",
+    "type": "blob",
+    "size": 568,
+    "sha": "30cb3948eb17630e4d1e64f412bd02310179e5a3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.png-480.webp",
+    "type": "blob",
+    "size": 3308,
+    "sha": "8744e7f132c55c35de15b5f6903c317b1e3b6efe"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-hero.png-800.webp",
+    "type": "blob",
+    "size": 8212,
+    "sha": "7f9b5c2e56372f356e37b279af8d56de86550c3c"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-purvaj.png-1440.webp",
+    "type": "blob",
+    "size": 75026,
+    "sha": "2d2c98518a78c76c1904f92ecf01b0f049af050b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-purvaj.png-160.webp",
+    "type": "blob",
+    "size": 4860,
+    "sha": "1f8be0fabca79fb7c8b5aacfa9443f30ce557535"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-purvaj.png-480.webp",
+    "type": "blob",
+    "size": 18882,
+    "sha": "4a24dd3550ceded24968714f5f1fe2485d3acbb3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-purvaj.png-800.webp",
+    "type": "blob",
+    "size": 37072,
+    "sha": "64bad2e9223f373a368746628091f14db5d0154b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-story.png-160.webp",
+    "type": "blob",
+    "size": 4962,
+    "sha": "877297ee90eb3b3ad973b0f8c56f6a093a0e9a75"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-about-story.png-380.webp",
+    "type": "blob",
+    "size": 17284,
+    "sha": "ecbd5c0411c6a1a666e3410cc855e68fd3cf37fe"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-dark-author.png-100.webp",
+    "type": "blob",
+    "size": 1742,
+    "sha": "643220cfd0f70e3c19f11aab80751fe5ddc6429f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-dark-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 104710,
+    "sha": "b4c78771a36def67e10eac255931ede429d653b2"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-dark-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 2770,
+    "sha": "8f99fb949454072fbcdb07311778f40ac5875026"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-dark-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 16812,
+    "sha": "889ce5e95de7113f8ae97220c2b2c2108fa351dd"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-dark-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 38046,
+    "sha": "ff5c6605c0c35c3fc0b67a4853c92ffb9ab58197"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-author.png-160.webp",
+    "type": "blob",
+    "size": 7110,
+    "sha": "27591efd7de02d239a38a72968442d40bcf489fb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-author.png-400.webp",
+    "type": "blob",
+    "size": 44622,
+    "sha": "f42a61cd3f0b0a4f534ab3913c5b92e421b04efb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church-fixed.png-1440.webp",
+    "type": "blob",
+    "size": 192398,
+    "sha": "22a8ed33522c8880f9e61537be10424a9f8d2b5d"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church-fixed.png-160.webp",
+    "type": "blob",
+    "size": 5722,
+    "sha": "375fa9e9b061d397b2f7c6484269264f6bb31883"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church-fixed.png-480.webp",
+    "type": "blob",
+    "size": 33630,
+    "sha": "cb018f8732ae6b409497e67e88d9c9f93d461682"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church-fixed.png-800.webp",
+    "type": "blob",
+    "size": 76356,
+    "sha": "0aa2ba5ebfd0f264de004a0f9b65aa8294075356"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church.png-1440.webp",
+    "type": "blob",
+    "size": 192466,
+    "sha": "35ae526d650a813248e73cad63456935924be671"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church.png-160.webp",
+    "type": "blob",
+    "size": 5674,
+    "sha": "9a488a8374e74ffb48e4dc9018a7bb3ce2603ec0"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church.png-480.webp",
+    "type": "blob",
+    "size": 33882,
+    "sha": "2a52c4b1b863dcac1f1a52d08509742821a0ec3d"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-church.png-800.webp",
+    "type": "blob",
+    "size": 77052,
+    "sha": "4819323c58a69c8461c051841e3b9459b99beae6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 55634,
+    "sha": "4be3e7400fa60c355651d6838b72e360f064e0a6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 1634,
+    "sha": "1a53bc3a8e994dcef563db7169db4d8b9a342612"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 11158,
+    "sha": "56f396fb30efe5ecf58026b21a6ff30fb8eeee0f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-article-light-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 25108,
+    "sha": "0c86c62b0d3577515245cc8ac58214695cef3f44"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-1.jpg-1440.webp",
+    "type": "blob",
+    "size": 140942,
+    "sha": "db5fb2d5ca4054e5a56a6e6ba59e71bc2bdc9791"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-1.jpg-160.webp",
+    "type": "blob",
+    "size": 3410,
+    "sha": "f89091beadf6dacec8a8053932d65edd9dae3fbc"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-1.jpg-480.webp",
+    "type": "blob",
+    "size": 20722,
+    "sha": "1372f9850bf1df3b599607bff10e58fb2ccd4edd"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-1.jpg-800.webp",
+    "type": "blob",
+    "size": 49956,
+    "sha": "1e465dd13ec31289955b22a491d0e272b3e0a124"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-2.jpg-1440.webp",
+    "type": "blob",
+    "size": 106638,
+    "sha": "cb6ca7b5c5cee2a021f26259b7b548f00dc333cf"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-2.jpg-160.webp",
+    "type": "blob",
+    "size": 4654,
+    "sha": "e0a0462c09085845c3c6709f57c144a780d10b46"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-2.jpg-480.webp",
+    "type": "blob",
+    "size": 18938,
+    "sha": "f6228a027f8e9dc7e9a5a785ed6ccf3aacd05eb2"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-2.jpg-800.webp",
+    "type": "blob",
+    "size": 41904,
+    "sha": "560486eefa63c7623102bfb2f38731c465cf2495"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-3.jpg-1440.webp",
+    "type": "blob",
+    "size": 73382,
+    "sha": "41de2913c09c6124439321bf3427859bd5216015"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-3.jpg-160.webp",
+    "type": "blob",
+    "size": 2334,
+    "sha": "770b55d2e94d4542828b39d77d3ca8c19f696a14"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-3.jpg-480.webp",
+    "type": "blob",
+    "size": 9738,
+    "sha": "06f1762a7e685b01d32546601344367c43f35d87"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-3.jpg-800.webp",
+    "type": "blob",
+    "size": 21258,
+    "sha": "0604f911eee09d06d5dcf748b00439144a70f165"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-4.jpg-1440.webp",
+    "type": "blob",
+    "size": 104710,
+    "sha": "b4c78771a36def67e10eac255931ede429d653b2"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-4.jpg-160.webp",
+    "type": "blob",
+    "size": 2770,
+    "sha": "8f99fb949454072fbcdb07311778f40ac5875026"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-4.jpg-480.webp",
+    "type": "blob",
+    "size": 16812,
+    "sha": "889ce5e95de7113f8ae97220c2b2c2108fa351dd"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-4.jpg-800.webp",
+    "type": "blob",
+    "size": 38046,
+    "sha": "ff5c6605c0c35c3fc0b67a4853c92ffb9ab58197"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-5.jpg-1440.webp",
+    "type": "blob",
+    "size": 40806,
+    "sha": "8d73c43826f08876dad9b630107e5f4edcc0c61d"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-5.jpg-160.webp",
+    "type": "blob",
+    "size": 1928,
+    "sha": "901c915333595d41dfd50f7f59f18d269a94a023"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-5.jpg-480.webp",
+    "type": "blob",
+    "size": 8978,
+    "sha": "ac01dd318056b1d6d2ad06c553f40074c37d7a85"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-5.jpg-800.webp",
+    "type": "blob",
+    "size": 18000,
+    "sha": "b305b0b3d642295b183e04ced5f4c24383565276"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-6.jpg-1440.webp",
+    "type": "blob",
+    "size": 120864,
+    "sha": "c490b41a50852a766329a437cc7e30ae5ca6fece"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-6.jpg-160.webp",
+    "type": "blob",
+    "size": 5714,
+    "sha": "0fb421605d7f8fd7c721892ef9337b10a1cb1e83"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-6.jpg-480.webp",
+    "type": "blob",
+    "size": 23724,
+    "sha": "0ac6550a0f364e2434440a0532032130f9818020"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-6.jpg-800.webp",
+    "type": "blob",
+    "size": 48106,
+    "sha": "7624576d597a4381c8ea920286ce9ff9cf5993d5"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-7.jpg-1440.webp",
+    "type": "blob",
+    "size": 55502,
+    "sha": "ea0098d152b19b31908dba7c08b9fbc6a0a03082"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-7.jpg-160.webp",
+    "type": "blob",
+    "size": 1642,
+    "sha": "7e54caac77f4f137ec4f043a4a42cc34b49f6eae"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-7.jpg-480.webp",
+    "type": "blob",
+    "size": 11156,
+    "sha": "c4dcb17b97c87cc1a32e07958dd25c97c65b5ac4"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-7.jpg-800.webp",
+    "type": "blob",
+    "size": 25006,
+    "sha": "28ae497aa00879c7e50537faf0295d375414ed65"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-8.jpg-1440.webp",
+    "type": "blob",
+    "size": 62694,
+    "sha": "7a431fa47c0575c15c1d79fe266444522a522dce"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-8.jpg-160.webp",
+    "type": "blob",
+    "size": 2776,
+    "sha": "242d3f14695e54a3882cc3f39cada4c77e3d485c"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-8.jpg-480.webp",
+    "type": "blob",
+    "size": 13232,
+    "sha": "bdc0b766fb67e05029ddcb9c1d134687d46aa5cc"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-8.jpg-800.webp",
+    "type": "blob",
+    "size": 26298,
+    "sha": "400ffcf302b0bd3017b33352ba174f2a2086e744"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 8846,
+    "sha": "331ea989b8ceada269f5b8739243eced466ebae6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 468,
+    "sha": "af2a228878719fe98b564713e7d078f4ca14ff08"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 1722,
+    "sha": "a807c8dbcbf7deeaadb9f02578d40df1ae880ad3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-blog-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 3680,
+    "sha": "3f83f9cbf5c95c94c789da2348f4918ad75006cb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-christmas-special-offer.png-1440.webp",
+    "type": "blob",
+    "size": 97006,
+    "sha": "2b8a70801e0f3dd21a8a74bb0f4fd29afca15caa"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-christmas-special-offer.png-160.webp",
+    "type": "blob",
+    "size": 3620,
+    "sha": "902fd529af999e0ea8b7de6040a33f2042d8de71"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-christmas-special-offer.png-480.webp",
+    "type": "blob",
+    "size": 20042,
+    "sha": "435505d23d582dbfd1285500013cc082f797287b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-christmas-special-offer.png-800.webp",
+    "type": "blob",
+    "size": 42562,
+    "sha": "394eb6108491bb3c8c77cf71b1b6600bab75f59b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-contact-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 6826,
+    "sha": "ccf3e3a3176a1027d94b8a7bd1936223dd5b9269"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-contact-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 410,
+    "sha": "e66d652ade8ff0420012f6bea1336540d3286058"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-contact-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 1482,
+    "sha": "01c6d1c13d2a617caaca079d145ae9ea3256ab03"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-contact-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 2908,
+    "sha": "41e6dd958a9604b97fec425536bc6466c6a1fd0f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-fam-n-me-logo.png-160.webp",
+    "type": "blob",
+    "size": 3134,
+    "sha": "97abe983a83c1b135c50977929b5449659aac452"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-fam-n-me-logo.png-191.webp",
+    "type": "blob",
+    "size": 1438,
+    "sha": "362beefbc7752f1a27910dc126717bcf59ffa523"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 55634,
+    "sha": "4be3e7400fa60c355651d6838b72e360f064e0a6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 1634,
+    "sha": "1a53bc3a8e994dcef563db7169db4d8b9a342612"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 11158,
+    "sha": "56f396fb30efe5ecf58026b21a6ff30fb8eeee0f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 25108,
+    "sha": "0c86c62b0d3577515245cc8ac58214695cef3f44"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-1.png-160.webp",
+    "type": "blob",
+    "size": 4090,
+    "sha": "6bcaad07646d77c367c429b098e8214388ac0a27"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-1.png-480.webp",
+    "type": "blob",
+    "size": 15534,
+    "sha": "03e32d2047e4ef92be5898bc8f5541368b306a3f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-1.png-800.webp",
+    "type": "blob",
+    "size": 27896,
+    "sha": "e4214b6175027796d42c0fe19ec8ce5f82224dc3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-2.png-160.webp",
+    "type": "blob",
+    "size": 2074,
+    "sha": "39bfae7f9bae92a864533743891eee2752119d83"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-2.png-480.webp",
+    "type": "blob",
+    "size": 12620,
+    "sha": "d24329f79cdd559dc7a42600aafb4a663849676c"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-2.png-800.webp",
+    "type": "blob",
+    "size": 27378,
+    "sha": "20e544d524f9e8724355fa573a1797e9d1f28ab6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-3.png-160.webp",
+    "type": "blob",
+    "size": 5214,
+    "sha": "31440ff4e55b7adb26c0feebc5a10581ea0357d0"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-3.png-480.webp",
+    "type": "blob",
+    "size": 20670,
+    "sha": "35a5a579998c3732900aa45bc90b4cef727a4c53"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-pillar-3.png-800.webp",
+    "type": "blob",
+    "size": 38002,
+    "sha": "16697dc23eeafc639cfdcdd5487888617a4de8f5"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-testimonial-fixed.png-160.webp",
+    "type": "blob",
+    "size": 1822,
+    "sha": "e3762416fa2870d09eecf467db1701230a6ec2e2"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-testimonial-fixed.png-480.webp",
+    "type": "blob",
+    "size": 7458,
+    "sha": "e68f9a950d7e18fc622f2d937abf7e98c38977e4"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-testimonial-fixed.png-600.webp",
+    "type": "blob",
+    "size": 10872,
+    "sha": "f36a3a32f68b8c9d24c06b23396768a2f3303c35"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-testimonial.png-160.webp",
+    "type": "blob",
+    "size": 1846,
+    "sha": "9429c66a1edf894bec8b25bccdefc0f34aabfe3f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-testimonial.png-480.webp",
+    "type": "blob",
+    "size": 7444,
+    "sha": "93a74feb7a39185d4ea13c71cbb4bed0f539599b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-home-testimonial.png-600.webp",
+    "type": "blob",
+    "size": 10770,
+    "sha": "9332c4c9cf68d3609a70631fddde7d11f592ac2b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-logo.png-160.webp",
+    "type": "blob",
+    "size": 4250,
+    "sha": "5e5acee264944e08330ca8249c56616c938d112f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-logo.png-480.webp",
+    "type": "blob",
+    "size": 18258,
+    "sha": "1f321cc3e16c8d60fc2add78b3231efd1f6c0c7a"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-logo.png-666.webp",
+    "type": "blob",
+    "size": 10844,
+    "sha": "40426e205bc4b287c649ae061d911f711f3d7826"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-products-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 18108,
+    "sha": "e7955a2336421ba6e2846f596145dfcce3c19b21"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-products-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 742,
+    "sha": "1166d21a45db98bc4cdde114702e44da7fff0aeb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-products-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 3684,
+    "sha": "4dc9152784584f6605221a573134fda904a96075"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/figma-products-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 7574,
+    "sha": "b6f5d8dd89d87bc3f8ccb9eb320b6534d7d29ae0"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-about.png-160.webp",
+    "type": "blob",
+    "size": 1608,
+    "sha": "b718ebb818065970147e0fa1a844a2b1131d7159"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-about.png-384.webp",
+    "type": "blob",
+    "size": 7432,
+    "sha": "185796d0b41c834992f65c661e5f3f13be7ac387"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-home.png-1440.webp",
+    "type": "blob",
+    "size": 57216,
+    "sha": "a10fbcfa69d56ee78a9da80a180b03ad2a83c32a"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-home.png-160.webp",
+    "type": "blob",
+    "size": 1676,
+    "sha": "76ab101b6fe152ddd9b4238871461db28c7b2819"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-home.png-480.webp",
+    "type": "blob",
+    "size": 11284,
+    "sha": "9f924bb5dacdbe734fe29af00736ea3e4b3f5cab"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-home.png-800.webp",
+    "type": "blob",
+    "size": 25436,
+    "sha": "9ef089882036507aba565f0b73a0f1b9120d382f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-products.jpg-1440.webp",
+    "type": "blob",
+    "size": 56626,
+    "sha": "914df962c9ede06c5eace76f635c65b208e92a24"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-products.jpg-160.webp",
+    "type": "blob",
+    "size": 2364,
+    "sha": "bbadc2475524abffff37a69ed4e5f05d0abe2b92"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-products.jpg-480.webp",
+    "type": "blob",
+    "size": 12106,
+    "sha": "d731c34007c88e6bc5dd3f8de30bb17a09b4fe66"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/hero-products.jpg-800.webp",
+    "type": "blob",
+    "size": 25102,
+    "sha": "55d45131b63ed0b75f35b95a74e55939e791d27b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-about-hero.png-1440.webp",
+    "type": "blob",
+    "size": 22310,
+    "sha": "35d961d3bf420eb6b6b2896cbcb1b4a02eeed05b"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-about-hero.png-160.webp",
+    "type": "blob",
+    "size": 568,
+    "sha": "30cb3948eb17630e4d1e64f412bd02310179e5a3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-about-hero.png-480.webp",
+    "type": "blob",
+    "size": 3308,
+    "sha": "8744e7f132c55c35de15b5f6903c317b1e3b6efe"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-about-hero.png-800.webp",
+    "type": "blob",
+    "size": 8212,
+    "sha": "7f9b5c2e56372f356e37b279af8d56de86550c3c"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-dark-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 104710,
+    "sha": "b4c78771a36def67e10eac255931ede429d653b2"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-dark-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 2770,
+    "sha": "8f99fb949454072fbcdb07311778f40ac5875026"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-dark-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 16812,
+    "sha": "889ce5e95de7113f8ae97220c2b2c2108fa351dd"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-dark-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 38046,
+    "sha": "ff5c6605c0c35c3fc0b67a4853c92ffb9ab58197"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-light-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 55634,
+    "sha": "4be3e7400fa60c355651d6838b72e360f064e0a6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-light-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 1634,
+    "sha": "1a53bc3a8e994dcef563db7169db4d8b9a342612"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-light-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 11158,
+    "sha": "56f396fb30efe5ecf58026b21a6ff30fb8eeee0f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-article-light-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 25108,
+    "sha": "0c86c62b0d3577515245cc8ac58214695cef3f44"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-blog-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 8846,
+    "sha": "331ea989b8ceada269f5b8739243eced466ebae6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-blog-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 468,
+    "sha": "af2a228878719fe98b564713e7d078f4ca14ff08"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-blog-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 1722,
+    "sha": "a807c8dbcbf7deeaadb9f02578d40df1ae880ad3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-blog-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 3680,
+    "sha": "3f83f9cbf5c95c94c789da2348f4918ad75006cb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-campaign-hero.png-160.webp",
+    "type": "blob",
+    "size": 5214,
+    "sha": "31440ff4e55b7adb26c0feebc5a10581ea0357d0"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-campaign-hero.png-480.webp",
+    "type": "blob",
+    "size": 20670,
+    "sha": "35a5a579998c3732900aa45bc90b4cef727a4c53"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-campaign-hero.png-800.webp",
+    "type": "blob",
+    "size": 38002,
+    "sha": "16697dc23eeafc639cfdcdd5487888617a4de8f5"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-contact-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 6826,
+    "sha": "ccf3e3a3176a1027d94b8a7bd1936223dd5b9269"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-contact-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 410,
+    "sha": "e66d652ade8ff0420012f6bea1336540d3286058"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-contact-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 1482,
+    "sha": "01c6d1c13d2a617caaca079d145ae9ea3256ab03"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-contact-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 2908,
+    "sha": "41e6dd958a9604b97fec425536bc6466c6a1fd0f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-home-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 55634,
+    "sha": "4be3e7400fa60c355651d6838b72e360f064e0a6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-home-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 1634,
+    "sha": "1a53bc3a8e994dcef563db7169db4d8b9a342612"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-home-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 11158,
+    "sha": "56f396fb30efe5ecf58026b21a6ff30fb8eeee0f"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-home-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 25108,
+    "sha": "0c86c62b0d3577515245cc8ac58214695cef3f44"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-module-detail-hero.png-160.webp",
+    "type": "blob",
+    "size": 2074,
+    "sha": "39bfae7f9bae92a864533743891eee2752119d83"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-module-detail-hero.png-480.webp",
+    "type": "blob",
+    "size": 12620,
+    "sha": "d24329f79cdd559dc7a42600aafb4a663849676c"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-module-detail-hero.png-800.webp",
+    "type": "blob",
+    "size": 27378,
+    "sha": "20e544d524f9e8724355fa573a1797e9d1f28ab6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-products-hero.jpg-1440.webp",
+    "type": "blob",
+    "size": 18108,
+    "sha": "e7955a2336421ba6e2846f596145dfcce3c19b21"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-products-hero.jpg-160.webp",
+    "type": "blob",
+    "size": 742,
+    "sha": "1166d21a45db98bc4cdde114702e44da7fff0aeb"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-products-hero.jpg-480.webp",
+    "type": "blob",
+    "size": 3684,
+    "sha": "4dc9152784584f6605221a573134fda904a96075"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-products-hero.jpg-800.webp",
+    "type": "blob",
+    "size": 7574,
+    "sha": "b6f5d8dd89d87bc3f8ccb9eb320b6534d7d29ae0"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-seo-hero.png-160.webp",
+    "type": "blob",
+    "size": 2074,
+    "sha": "39bfae7f9bae92a864533743891eee2752119d83"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-seo-hero.png-480.webp",
+    "type": "blob",
+    "size": 12620,
+    "sha": "d24329f79cdd559dc7a42600aafb4a663849676c"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/heroes-seo-hero.png-800.webp",
+    "type": "blob",
+    "size": 27378,
+    "sha": "20e544d524f9e8724355fa573a1797e9d1f28ab6"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/logo-gold.png-160.webp",
+    "type": "blob",
+    "size": 4312,
+    "sha": "b147a992e72ec5ab5c5270dbac5103d1af9fbdc9"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/logo-gold.png-333.webp",
+    "type": "blob",
+    "size": 5806,
+    "sha": "f000009787d19e413a296e7985e07eebc4727270"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/manifest.json",
+    "type": "blob",
+    "size": 20260,
+    "sha": "69212c6b5a069292d31fd536dc8d221510102f80"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-church-overview.png-160.webp",
+    "type": "blob",
+    "size": 1756,
+    "sha": "7b170effa6333418b342b61571c9966e81633b85"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-church-overview.png-480.webp",
+    "type": "blob",
+    "size": 9116,
+    "sha": "a0fb67c8f6d6e19b4238ecd0c3c2a1ec7361cf84"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-church-overview.png-800.webp",
+    "type": "blob",
+    "size": 17338,
+    "sha": "3a9353ab127b259f25b957d471439fd540240bda"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-church-overview.png-869.webp",
+    "type": "blob",
+    "size": 19226,
+    "sha": "dcb302e74c852636ded29a723095565cfab7d054"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-screenshot.png-1440.webp",
+    "type": "blob",
+    "size": 31094,
+    "sha": "fbe848b4d1ec3edce8f9fbc5fa97c1dedaacc666"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-screenshot.png-160.webp",
+    "type": "blob",
+    "size": 1512,
+    "sha": "ea46f857b62ca555a32ff5c447bbe08047a075f1"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-screenshot.png-480.webp",
+    "type": "blob",
+    "size": 7532,
+    "sha": "26f6b5d2429cdc354aeaf1eea85d789d1fbf6a34"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/module-dashboard-screenshot.png-800.webp",
+    "type": "blob",
+    "size": 15072,
+    "sha": "b51d4982e7280b6e4b8d4e7cf4a65eb6b8870e03"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-administration.png-160.webp",
+    "type": "blob",
+    "size": 3382,
+    "sha": "bdb8ebeebbdcb244847d32814910ab0c070733d4"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-administration.png-480.webp",
+    "type": "blob",
+    "size": 19186,
+    "sha": "8294a518f3f3585b52b328d9a385818644477d7e"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-administration.png-512.webp",
+    "type": "blob",
+    "size": 22814,
+    "sha": "0f9eafa0ec288b09e64217016b3b60cdec863a00"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-clergy.png-160.webp",
+    "type": "blob",
+    "size": 2316,
+    "sha": "8192cd1e9a2df89cc8cfff5473ca14338e7a51dd"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-clergy.png-480.webp",
+    "type": "blob",
+    "size": 9602,
+    "sha": "39a00112fb56c2c2c571aa012b11e7bb12a60799"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-clergy.png-512.webp",
+    "type": "blob",
+    "size": 10478,
+    "sha": "011e09f881d91df86ad035d9d3a8f8c5e8dca497"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-members.png-160.webp",
+    "type": "blob",
+    "size": 5648,
+    "sha": "a20582abeb5687acdd90b2c757147efe68f9d255"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-members.png-480.webp",
+    "type": "blob",
+    "size": 22578,
+    "sha": "2740f5db9d4694d51f52cfa37e464c0c62bc90d9"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/pillar-members.png-512.webp",
+    "type": "blob",
+    "size": 25244,
+    "sha": "589275cf329feff51a68159ab99ca524f535f3fa"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/testimonial.png-160.webp",
+    "type": "blob",
+    "size": 4656,
+    "sha": "f321485c9ee65e191c6344cf64e30c2d302023f3"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/testimonial.png-480.webp",
+    "type": "blob",
+    "size": 18482,
+    "sha": "2f16e8965ce53d1f82f6949ccbf90f8d443f735a"
+  },
+  {
+    "path": "church-govern/assets/images/optimized/testimonial.png-512.webp",
+    "type": "blob",
+    "size": 20664,
+    "sha": "4b4757b349012f11ae26eeb0f60b61f4fbc0f1ea"
+  },
+  {
+    "path": "church-govern/assets/images/pillar-administration.png",
+    "type": "blob",
+    "size": 490164,
+    "sha": "dd7660331ebfb3535b5c1db660e9e394c7e48214"
+  },
+  {
+    "path": "church-govern/assets/images/pillar-clergy.png",
+    "type": "blob",
+    "size": 435143,
+    "sha": "f9dd863ca23957df01b6f8d3d4e741e5fea81586"
+  },
+  {
+    "path": "church-govern/assets/images/pillar-members.png",
+    "type": "blob",
+    "size": 530575,
+    "sha": "31951b77a40d0770cd65fe5914fba38916716bbd"
+  },
+  {
+    "path": "church-govern/assets/images/testimonial.png",
+    "type": "blob",
+    "size": 484838,
+    "sha": "2217404591b7077628afacb5141a5acddde6205c"
+  },
+  {
+    "path": "church-govern/assets/js",
+    "type": "tree",
+    "size": 0,
+    "sha": "28a7f06deef4b3ee9b58ab032aebc32d38a89dfc"
+  },
+  {
+    "path": "church-govern/assets/js/editor-blocks.js",
+    "type": "blob",
+    "size": 42513,
+    "sha": "35906693a9a6902c4b605a4c4b1a80f3efc7cd3a"
+  },
+  {
+    "path": "church-govern/assets/js/editor-workflows.js",
+    "type": "blob",
+    "size": 9171,
+    "sha": "68ece96dabac73e235e0064e2d8e5a7063f4bfb4"
+  },
+  {
+    "path": "church-govern/assets/js/navigation.js",
+    "type": "blob",
+    "size": 35998,
+    "sha": "c0e512b736387461041298016fe7ffe94cd55e55"
+  },
+  {
+    "path": "church-govern/functions.php",
+    "type": "blob",
+    "size": 8647,
+    "sha": "1d599ade356a541c1a69d7ea06192a29062a53d4"
+  },
+  {
+    "path": "church-govern/inc",
+    "type": "tree",
+    "size": 0,
+    "sha": "b09f512782551614261d838c1b1b7ade049b3eec"
+  },
+  {
+    "path": "church-govern/inc/article-icons.php",
+    "type": "blob",
+    "size": 2968,
+    "sha": "bc5619946c8d879145b9db28e3e6a271f6fc37c6"
+  },
+  {
+    "path": "church-govern/inc/pattern-parts",
+    "type": "tree",
+    "size": 0,
+    "sha": "ca62eeddead1b465864e15206079a75248a48f05"
+  },
+  {
+    "path": "church-govern/inc/pattern-parts/demo-form-section.php",
+    "type": "blob",
+    "size": 15286,
+    "sha": "c9a439d4cd2914e70f35df97456efaefbf70e5fb"
+  },
+  {
+    "path": "church-govern/inc/responsive-media.php",
+    "type": "blob",
+    "size": 2563,
+    "sha": "8766c0e73aa12f31e7e3d9d9577ffe03d019481d"
+  },
+  {
+    "path": "church-govern/inc/seed-demo-content.php",
+    "type": "blob",
+    "size": 3734,
+    "sha": "6bd30855f9021f9e5031b03d152363872d638cfc"
+  },
+  {
+    "path": "church-govern/parts",
+    "type": "tree",
+    "size": 0,
+    "sha": "96bd663d31e398a234f5152cc5aa68776061d595"
+  },
+  {
+    "path": "church-govern/parts/footer.html",
+    "type": "blob",
+    "size": 53,
+    "sha": "83bc82a75946a56e3c861e838ee7832da7573374"
+  },
+  {
+    "path": "church-govern/parts/header.html",
+    "type": "blob",
+    "size": 53,
+    "sha": "d15345858f14b7a81f251023ff12b1ba09665d0d"
+  },
+  {
+    "path": "church-govern/patterns",
+    "type": "tree",
+    "size": 0,
+    "sha": "646f026879bfa466e3ef9256671bc861112b3344"
+  },
+  {
+    "path": "church-govern/patterns/about-page.php",
+    "type": "blob",
+    "size": 22524,
+    "sha": "9af7e6148d0c64e05c3ff84b237a796294d47e92"
+  },
+  {
+    "path": "church-govern/patterns/article-dark-page.php",
+    "type": "blob",
+    "size": 44376,
+    "sha": "3edf9ba36ddf9762fa22a93d61ce5528712b81ec"
+  },
+  {
+    "path": "church-govern/patterns/article-light-page.php",
+    "type": "blob",
+    "size": 39467,
+    "sha": "dd21e99493972c303def650a3120b4e8c79fb18b"
+  },
+  {
+    "path": "church-govern/patterns/blog-page.php",
+    "type": "blob",
+    "size": 46364,
+    "sha": "6acf5cb9bec319716d50cd8eb85c8eb7c244be60"
+  },
+  {
+    "path": "church-govern/patterns/campaign-landing.php",
+    "type": "blob",
+    "size": 17707,
+    "sha": "bbe4ca4ae7a28a09e4f71035bc443ebb70febbf9"
+  },
+  {
+    "path": "church-govern/patterns/christmas-offer.php",
+    "type": "blob",
+    "size": 1909,
+    "sha": "d7b3ef5bae4a14ea0c4ca333c34b4a997806dbf2"
+  },
+  {
+    "path": "church-govern/patterns/contact-page.php",
+    "type": "blob",
+    "size": 36716,
+    "sha": "d08372042993d1a06f6b92ba92f1d3824340a65c"
+  },
+  {
+    "path": "church-govern/patterns/cta.php",
+    "type": "blob",
+    "size": 1641,
+    "sha": "7c2ce9d302a46cdc8931fdcf5e9cd2eaaca43907"
+  },
+  {
+    "path": "church-govern/patterns/dynamic-content-states.php",
+    "type": "blob",
+    "size": 5278,
+    "sha": "613a239beac1f6ade9afeb42c0dc1b0a55cd9dbe"
+  },
+  {
+    "path": "church-govern/patterns/feedback-page.php",
+    "type": "blob",
+    "size": 11292,
+    "sha": "20efabbcb11816838ff3e1c2ce56e0b53334e0d1"
+  },
+  {
+    "path": "church-govern/patterns/footer.php",
+    "type": "blob",
+    "size": 10510,
+    "sha": "91e10e6beccc2cb7f01421b7babed4022cadb994"
+  },
+  {
+    "path": "church-govern/patterns/header.php",
+    "type": "blob",
+    "size": 2803,
+    "sha": "a2443bf44ce455752f155d431530218f53def72e"
+  },
+  {
+    "path": "church-govern/patterns/home-page.php",
+    "type": "blob",
+    "size": 68147,
+    "sha": "bbd62341fdc7e54ae972786b83002aec9894f0d4"
+  },
+  {
+    "path": "church-govern/patterns/module-detail-page.php",
+    "type": "blob",
+    "size": 13939,
+    "sha": "fa090fa1c58fb5e834d95b6500f4cffcc13b0781"
+  },
+  {
+    "path": "church-govern/patterns/privacy-policy-page.php",
+    "type": "blob",
+    "size": 3957,
+    "sha": "45c2ac7192a43e1c041b4a5784f3d6986db74e85"
+  },
+  {
+    "path": "church-govern/patterns/product-module.php",
+    "type": "blob",
+    "size": 3006,
+    "sha": "5bed36b8f1054a36a48113eb7e2964d77a23a9bb"
+  },
+  {
+    "path": "church-govern/patterns/products-page.php",
+    "type": "blob",
+    "size": 61035,
+    "sha": "09b46cb6cd6beb19543086d4fdb9768c44803147"
+  },
+  {
+    "path": "church-govern/patterns/request-demo-page.php",
+    "type": "blob",
+    "size": 18903,
+    "sha": "2fa620762487b16de1499a09a6726ead315df0a5"
+  },
+  {
+    "path": "church-govern/patterns/section-benefits-grid.php",
+    "type": "blob",
+    "size": 4757,
+    "sha": "8a6416bee8fa156286d7a4bad4335aa402425849"
+  },
+  {
+    "path": "church-govern/patterns/section-card-grid.php",
+    "type": "blob",
+    "size": 4221,
+    "sha": "b746fdeae1d543d4a5abdba23b8d21136b96095e"
+  },
+  {
+    "path": "church-govern/patterns/section-demo-form.php",
+    "type": "blob",
+    "size": 292,
+    "sha": "00c38901f033b9008113f92ed23fabc6de5bf3fa"
+  },
+  {
+    "path": "church-govern/patterns/section-experience-stats.php",
+    "type": "blob",
+    "size": 3681,
+    "sha": "19584ec2134b3aea0e14ffd485e5c2cbfa9448f3"
+  },
+  {
+    "path": "church-govern/patterns/section-faq.php",
+    "type": "blob",
+    "size": 5040,
+    "sha": "7f6cf28b3ad648d91490780aabc2e37f98cee001"
+  },
+  {
+    "path": "church-govern/patterns/section-hero.php",
+    "type": "blob",
+    "size": 2055,
+    "sha": "20d1ed0538ba7105181feaa007a9c7ddb312b7e9"
+  },
+  {
+    "path": "church-govern/patterns/section-product-showcase.php",
+    "type": "blob",
+    "size": 3877,
+    "sha": "f6e9d2a252dfe132197244bbdbf2ee4e467e7948"
+  },
+  {
+    "path": "church-govern/patterns/section-split-media.php",
+    "type": "blob",
+    "size": 2237,
+    "sha": "57b7f0dcd250d70693127635cedc94c6a2d0c2a1"
+  },
+  {
+    "path": "church-govern/patterns/section-testimonial.php",
+    "type": "blob",
+    "size": 2144,
+    "sha": "b45a756f69e9eeed9fbb4c31cfcf31fdff8a72fc"
+  },
+  {
+    "path": "church-govern/patterns/security-compliance-section.php",
+    "type": "blob",
+    "size": 6357,
+    "sha": "7d590ab7d052bfc1b26d7a738170651701e738db"
+  },
+  {
+    "path": "church-govern/patterns/seo-dynamic-page.php",
+    "type": "blob",
+    "size": 30011,
+    "sha": "e38f8b9dcb4d04ff02b5369b767b38995cfa9554"
+  },
+  {
+    "path": "church-govern/screenshot.png",
+    "type": "blob",
+    "size": 767998,
+    "sha": "e7f622566f75dbe549dfa3e759273da6c09629fa"
+  },
+  {
+    "path": "church-govern/style.css",
+    "type": "blob",
+    "size": 501,
+    "sha": "68d81271dcfed05dddc0e73c7867779d731beb20"
+  },
+  {
+    "path": "church-govern/templates",
+    "type": "tree",
+    "size": 0,
+    "sha": "f7f54182f9f41d5f445ed0f2dc4c636dc935e61e"
+  },
+  {
+    "path": "church-govern/templates/404.html",
+    "type": "blob",
+    "size": 1324,
+    "sha": "10aa2394e89c49b6e7a546080b125c14d250ea5d"
+  },
+  {
+    "path": "church-govern/templates/archive.html",
+    "type": "blob",
+    "size": 1115,
+    "sha": "af088d76cf067b9f62e96b6b4e85874f17d86b5c"
+  },
+  {
+    "path": "church-govern/templates/front-page.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/home.html",
+    "type": "blob",
+    "size": 266,
+    "sha": "4e163a585dbc4b2cfbcb66491ba70ccdcfdcc7a4"
+  },
+  {
+    "path": "church-govern/templates/index.html",
+    "type": "blob",
+    "size": 1069,
+    "sha": "64e979ef4b5cdd21cf0b54b7702137c5e51a5047"
+  },
+  {
+    "path": "church-govern/templates/page-about.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-article-dark.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-article-light.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-blog.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-contact.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-landing.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-module-detail.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-products.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-request-demo.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page-seo-dynamic.html",
+    "type": "blob",
+    "size": 216,
+    "sha": "7fc4a8e28f894eec44d0cc0c38122c264f14c413"
+  },
+  {
+    "path": "church-govern/templates/page.html",
+    "type": "blob",
+    "size": 497,
+    "sha": "7fd64301de5bbac7efe760ddd9f48b24a801f6ad"
+  },
+  {
+    "path": "church-govern/templates/search.html",
+    "type": "blob",
+    "size": 1209,
+    "sha": "b349ff566f8131c2125a0c6e01a9cf781a1188a4"
+  },
+  {
+    "path": "church-govern/templates/single.html",
+    "type": "blob",
+    "size": 495,
+    "sha": "e511b673a6b117b87d9f7fd8fd869bd956011e6b"
+  },
+  {
+    "path": "church-govern/theme.json",
+    "type": "blob",
+    "size": 4643,
+    "sha": "d4d316cb0a9ecd2dd3b36bea55a0fe4d252c6121"
+  },
+  {
+    "path": "dist",
+    "type": "tree",
+    "size": 0,
+    "sha": "02f535157a363a9e88152946a0e2792d45043dd8"
+  },
+  {
+    "path": "dist/church-govern-core.zip",
+    "type": "blob",
+    "size": 149854,
+    "sha": "76fc0cb021a73dd44e2ba2b30436e203620ba4f7"
+  },
+  {
+    "path": "dist/church-govern-native.zip",
+    "type": "blob",
+    "size": 41127413,
+    "sha": "19c5f5b5d771fccbc80dc00d9826da60327a9d4c"
+  },
+  {
+    "path": "docs",
+    "type": "tree",
+    "size": 0,
+    "sha": "08326ad6c2b1c97cc7dce006a4e33dfc733ef336"
+  },
+  {
+    "path": "docs/analytics-events.md",
+    "type": "blob",
+    "size": 2972,
+    "sha": "37d2a4882c355a3f7e6c7a5c4d32c0d4432bd8dc"
+  },
+  {
+    "path": "docs/backend-cms-handoff.md",
+    "type": "blob",
+    "size": 4671,
+    "sha": "675133b04de6012657a143257355cfb24c3e794e"
+  },
+  {
+    "path": "docs/cms-audit-fixes.md",
+    "type": "blob",
+    "size": 12937,
+    "sha": "aa5aae2cb71d569a415a654aeaa6113b1ec05014"
+  },
+  {
+    "path": "docs/cms-integration-map.md",
+    "type": "blob",
+    "size": 8954,
+    "sha": "346cd1fcb89ad51abda7af0ef2a277b02f50389f"
+  },
+  {
+    "path": "docs/demo-readiness-2026-10-05.md",
+    "type": "blob",
+    "size": 17264,
+    "sha": "b6035bca17afe4e9745fd3ada0d8fe7a8b4ad3d7"
+  },
+  {
+    "path": "docs/easywp-migration-handoff.md",
+    "type": "blob",
+    "size": 12436,
+    "sha": "3bac349a5ce8850cc2082f3e4d1b02ae681a8803"
+  },
+  {
+    "path": "docs/editor-guide.md",
+    "type": "blob",
+    "size": 19627,
+    "sha": "e419c0a0786f317a4866348849e0bb2680c05aac"
+  },
+  {
+    "path": "docs/figma-asset-map.md",
+    "type": "blob",
+    "size": 1507,
+    "sha": "70c0cc6bf44008ba5b02fc6da25455b90866e865"
+  },
+  {
+    "path": "docs/module-card-hosted-update.md",
+    "type": "blob",
+    "size": 2504,
+    "sha": "371bb852ee66d27a2b074a3006da7b93029f79d5"
+  },
+  {
+    "path": "docs/qa-checklist.md",
+    "type": "blob",
+    "size": 9665,
+    "sha": "c3a19daea5f5781f3d8819cd3333ba6f187e2632"
+  },
+  {
+    "path": "docs/seo-client-training.md",
+    "type": "blob",
+    "size": 3694,
+    "sha": "3c496758c72d90936084994f6ff1ff975d2d778a"
+  },
+  {
+    "path": "docs/seo-guide.md",
+    "type": "blob",
+    "size": 8015,
+    "sha": "d8d3b2a9ff2c5f791d34d0378ecd4788f1b08b72"
+  },
+  {
+    "path": "package-lock.json",
+    "type": "blob",
+    "size": 120618,
+    "sha": "1a49aad6a926d652d47048bdc713dde6bffc7eb1"
+  },
+  {
+    "path": "package.json",
+    "type": "blob",
+    "size": 385,
+    "sha": "389acf81543348dc7690157ac1823ac14914ab8e"
+  },
+  {
+    "path": "tests",
+    "type": "tree",
+    "size": 0,
+    "sha": "eeef110df0a5807fe57f1475742d9e1eb4ae5836"
+  },
+  {
+    "path": "tests/cms-blueprint.json",
+    "type": "blob",
+    "size": 315,
+    "sha": "8e04c74af6e5cf0eaeb922ad27db33a0f3ee43df"
+  },
+  {
+    "path": "tests/cms-integration.php",
+    "type": "blob",
+    "size": 142499,
+    "sha": "bca794ec88bb9a0e2e64e01a82f6dcb42404b8a8"
+  },
+  {
+    "path": "tests/http-fixtures.php",
+    "type": "blob",
+    "size": 1417,
+    "sha": "7b09bfb7f54ebeb35cef33c257c0f29bd920121c"
+  },
+  {
+    "path": "tools",
+    "type": "tree",
+    "size": 0,
+    "sha": "ebf4bf315a952a97aa6b9608135c373102e5e06c"
+  },
+  {
+    "path": "tools/audit-admin-ui.js",
+    "type": "blob",
+    "size": 4158,
+    "sha": "dc32757742ef1df0a9b41cb9a276dfd45db5e875"
+  },
+  {
+    "path": "tools/audit-editor-responsive.js",
+    "type": "blob",
+    "size": 3514,
+    "sha": "703a4e4ef696412c500eb57e6e974a58f3638944"
+  },
+  {
+    "path": "tools/audit-editor-ui.js",
+    "type": "blob",
+    "size": 10446,
+    "sha": "a49c1f454b37d775aaa978c98433d09d68a248f0"
+  },
+  {
+    "path": "tools/audit-public-ui.js",
+    "type": "blob",
+    "size": 3324,
+    "sha": "872c774fca27d1fc36ba424654f401633e1d3bc8"
+  },
+  {
+    "path": "tools/build-cms.sh",
+    "type": "blob",
+    "size": 523,
+    "sha": "eaf4abd325a431efdbd4d526c7628b9633b3c47e"
+  },
+  {
+    "path": "tools/build-preview.mjs",
+    "type": "blob",
+    "size": 4370,
+    "sha": "516a4ab7cb03a2b6cab4bf0415e9f3f83d70fafb"
+  },
+  {
+    "path": "tools/build-theme.sh",
+    "type": "blob",
+    "size": 550,
+    "sha": "c83d0f2b89e373849c291535c4f3b3900a29f8ab"
+  },
+  {
+    "path": "tools/build_project_tracker.mjs",
+    "type": "blob",
+    "size": 44199,
+    "sha": "65cb86272f91131fbff3ef0d426eb77acdc14d47"
+  },
+  {
+    "path": "tools/church-govern-asset-cache-bust",
+    "type": "tree",
+    "size": 0,
+    "sha": "a17907826d5db50233053ce697bb0e82c14907f3"
+  },
+  {
+    "path": "tools/church-govern-asset-cache-bust/church-govern-asset-cache-bust.php",
+    "type": "blob",
+    "size": 656,
+    "sha": "bf9aaa83e52973d0841948518e3bd5a91613d1c7"
+  },
+  {
+    "path": "tools/church-govern-asset-repair",
+    "type": "tree",
+    "size": 0,
+    "sha": "87879587eafe0690a6ce17f9834b6c55d92a9f00"
+  },
+  {
+    "path": "tools/church-govern-asset-repair/church-govern-asset-repair.php",
+    "type": "blob",
+    "size": 1875,
+    "sha": "32efe32f2935fbf5d0596afd6bfb98741c5318d0"
+  },
+  {
+    "path": "tools/church-govern-layout-restore",
+    "type": "tree",
+    "size": 0,
+    "sha": "fcc023cd07ce55f23623bbef27193b54e1b352d1"
+  },
+  {
+    "path": "tools/church-govern-layout-restore/church-govern-layout-restore.php",
+    "type": "blob",
+    "size": 3095,
+    "sha": "8bde129888943e00d13665424691bafade521e09"
+  },
+  {
+    "path": "tools/church-govern-migration-repair",
+    "type": "tree",
+    "size": 0,
+    "sha": "f4853de00fbb04ce2e8efe95f18069870e7811f3"
+  },
+  {
+    "path": "tools/church-govern-migration-repair/church-govern-migration-repair.php",
+    "type": "blob",
+    "size": 2939,
+    "sha": "5709857f836fab17baf55c87c4eb2cb903faffee"
+  },
+  {
+    "path": "tools/church-govern-percent-meta-repair",
+    "type": "tree",
+    "size": 0,
+    "sha": "d9a03af89ae62d1c014b40d06173deece76fbc00"
+  },
+  {
+    "path": "tools/church-govern-percent-meta-repair/church-govern-percent-meta-repair.php",
+    "type": "blob",
+    "size": 2836,
+    "sha": "967e57245044e420e166baf5d7d65e0d72608c76"
+  },
+  {
+    "path": "tools/church-govern-percent-token-repair",
+    "type": "tree",
+    "size": 0,
+    "sha": "725148aa369f6251aa4233069be494cd265ffafe"
+  },
+  {
+    "path": "tools/church-govern-percent-token-repair/church-govern-percent-token-repair.php",
+    "type": "blob",
+    "size": 2638,
+    "sha": "fd135160d41b9abed8afe4316b22a2c324a44025"
+  },
+  {
+    "path": "tools/church-govern-products-restore",
+    "type": "tree",
+    "size": 0,
+    "sha": "eac00c896ef6f598363fa2977e2e731e016873ee"
+  },
+  {
+    "path": "tools/church-govern-products-restore/church-govern-products-restore.php",
+    "type": "blob",
+    "size": 5423,
+    "sha": "08b02570c67ae5f8add139b53c7774cf8614ef75"
+  },
+  {
+    "path": "tools/client-preview-blueprint.json",
+    "type": "blob",
+    "size": 739,
+    "sha": "d596a9f1b636182a4ab896f4caac0584d7b2f2d0"
+  },
+  {
+    "path": "tools/client-preview-proxy.mjs",
+    "type": "blob",
+    "size": 2930,
+    "sha": "6805da734bc8111158ba96685465338a2e445b42"
+  },
+  {
+    "path": "tools/cms-preview-blueprint.json",
+    "type": "blob",
+    "size": 642,
+    "sha": "b1e9dd48085cd199c947277b8c5f8a43df14dcaa"
+  },
+  {
+    "path": "tools/convert-patterns-to-blocks.py",
+    "type": "blob",
+    "size": 15563,
+    "sha": "f54165cfa3179bf53312f55f9e1984c0b4cec572"
+  },
+  {
+    "path": "tools/create_invoice.py",
+    "type": "blob",
+    "size": 9458,
+    "sha": "ab08f15379bd12929f66cc8da8b8f1fd4edfec81"
+  },
+  {
+    "path": "tools/measure-performance.mjs",
+    "type": "blob",
+    "size": 1854,
+    "sha": "c9589c4bce4e27ca3355774236163393ca86dbbf"
+  },
+  {
+    "path": "tools/optimize-media.py",
+    "type": "blob",
+    "size": 1676,
+    "sha": "98c4d630a5f9f14753d11c9b337fc18ba20747a8"
+  },
+  {
+    "path": "tools/playground-blueprint.json",
+    "type": "blob",
+    "size": 497,
+    "sha": "c5fcbfaaf269f9735457155424018c26eeb7f51f"
+  },
+  {
+    "path": "tools/playground-core-blueprint.json",
+    "type": "blob",
+    "size": 606,
+    "sha": "3624d99f2296eaaf038a710cec2876c7efcbc463"
+  },
+  {
+    "path": "tools/restore-drill.compose.yml",
+    "type": "blob",
+    "size": 1015,
+    "sha": "f02b36c5309e93a1f28a0510497137330fb46726"
+  },
+  {
+    "path": "tools/restore-drill.ini",
+    "type": "blob",
+    "size": 93,
+    "sha": "94de669e15f38ab93eeb495a0ea6af8ae5a760fd"
+  },
+  {
+    "path": "tools/start-cms-preview.sh",
+    "type": "blob",
+    "size": 333,
+    "sha": "c3d70cb5bf26a2c7b680895d31988bac7bd1d4d7"
+  },
+  {
+    "path": "tools/start-preview.sh",
+    "type": "blob",
+    "size": 2214,
+    "sha": "5f4cb9b2fdc206135686aefad20c2e01fdcb049a"
+  },
+  {
+    "path": "tools/start-public-preview.sh",
+    "type": "blob",
+    "size": 1705,
+    "sha": "4e3af8aa17b2823ee87a60705d83dbe88458c2f4"
+  },
+  {
+    "path": "tools/test-browser.mjs",
+    "type": "blob",
+    "size": 12733,
+    "sha": "10f34925701f8fcb42306c5bd7453c35eeb57f51"
+  },
+  {
+    "path": "tools/test-cms.mjs",
+    "type": "blob",
+    "size": 2706,
+    "sha": "6d8e8f57074a23cbaf26c627c611921f987e55ca"
+  },
+  {
+    "path": "tools/test-cms.sh",
+    "type": "blob",
+    "size": 922,
+    "sha": "a2d7ffa04e879382fb10c01b5075c2267a592e0e"
+  },
+  {
+    "path": "tools/test-editor-creation.mjs",
+    "type": "blob",
+    "size": 7525,
+    "sha": "93ec73892c4ce418ebcda87b86472e25b9cc67c0"
+  },
+  {
+    "path": "tools/test-editor-parity.mjs",
+    "type": "blob",
+    "size": 11815,
+    "sha": "d125963e02edb5e33d8559c6be8626530af01d66"
+  },
+  {
+    "path": "tools/test-editorial.mjs",
+    "type": "blob",
+    "size": 5239,
+    "sha": "79a2fd70abcf0a73ae3bb9df9591558d2ab64721"
+  },
+  {
+    "path": "tools/test-module-metadata.mjs",
+    "type": "blob",
+    "size": 10035,
+    "sha": "61d08c0a36717cdba3e529e62e28863a8708c87b"
+  },
+  {
+    "path": "tools/verify-theme.mjs",
+    "type": "blob",
+    "size": 7241,
+    "sha": "7ed04ac763a5214c26c12e86d405f1b38fc9d8a2"
+  }
+]
