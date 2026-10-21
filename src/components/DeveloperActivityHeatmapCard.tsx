@@ -235,9 +235,15 @@ export const DeveloperActivityHeatmapCard: React.FC<DeveloperActivityHeatmapCard
   const latestDay = processedDays.filter((d) => d.count > 0).slice(-1)[0];
 
   return (
-    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between shadow-sm relative transition-all">
+    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between shadow-sm relative transition-all group overflow-hidden">
+      {/* Sci-Fi HUD Corner Reticles */}
+      <span className="hud-corner-tl" />
+      <span className="hud-corner-tr" />
+      <span className="hud-corner-bl" />
+      <span className="hud-corner-br" />
+
       {/* Top Header: Title, Description, and Contributor Filter */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 pb-3.5 border-b border-zinc-800/90">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 pb-3.5 border-b border-zinc-800/90 relative z-10">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-500/30 flex items-center justify-center shrink-0 shadow-[0_0_15px_rgba(16,185,129,0.15)]">
             <Flame className="w-4.5 h-4.5 text-emerald-400" />
@@ -258,8 +264,12 @@ export const DeveloperActivityHeatmapCard: React.FC<DeveloperActivityHeatmapCard
                   ⚡ {curStreak}d streak
                 </span>
               )}
+              <span className="hidden md:inline-flex items-center gap-1 text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                MATRIX SCAN 52W
+              </span>
             </div>
-            <p className="text-[11px] text-zinc-400 mt-0.5">
+            <p className="text-[11px] text-zinc-400 mt-0.5 font-mono">
               Verified 52-week annual contribution cadence and continuous deployment streak
             </p>
           </div>
@@ -399,9 +409,20 @@ export const DeveloperActivityHeatmapCard: React.FC<DeveloperActivityHeatmapCard
         </div>
       </div>
 
-      {/* 52-Week Full Year Calendar Heatmap Grid */}
-      <div className="bg-zinc-950/40 border border-zinc-900 rounded-lg p-3 my-1">
-        <div className="flex items-start gap-2">
+      {/* 52-Week Full Year Calendar Heatmap Grid with Emerald Laser Scanline Sweep */}
+      <div className="relative bg-zinc-950/40 border border-zinc-900 rounded-lg p-3 my-1 overflow-hidden">
+        {/* Animated Emerald Thermal Scanner Sweep Line */}
+        <div className="absolute inset-0 pointer-events-none z-10 overflow-hidden">
+          <div
+            className="w-24 h-full animate-scanner-horiz opacity-30"
+            style={{
+              background: 'linear-gradient(90deg, transparent 0%, rgba(16, 185, 129, 0.4) 50%, rgba(52, 211, 153, 0.8) 95%, transparent 100%)',
+              borderRight: '1px solid rgba(52, 211, 153, 0.75)',
+              filter: 'drop-shadow(0 0 6px rgba(16, 185, 129, 0.6))',
+            }}
+          />
+        </div>
+        <div className="flex items-start gap-2 relative z-0">
           {/* Day of Week Labels: Exactly locked to 7 rows with same height and gap */}
           <div className="w-7 shrink-0 flex flex-col">
             {/* Spacer matching month row height */}

@@ -128,12 +128,22 @@ export const BusiestCodingHoursCard: React.FC<BusiestCodingHoursCardProps> = ({ 
   ];
 
   return (
-    <div className="bg-black border border-zinc-800 rounded-xl p-4 flex flex-col justify-between h-[340px] shadow-sm relative overflow-hidden">
+    <div className="bg-black border border-zinc-800 rounded-xl p-4 flex flex-col justify-between h-[340px] shadow-sm relative overflow-hidden group">
+      {/* Sci-Fi HUD Corner Reticles */}
+      <span className="hud-corner-tl" />
+      <span className="hud-corner-tr" />
+      <span className="hud-corner-bl" />
+      <span className="hud-corner-br" />
+
       {/* Header */}
       <div>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between relative z-10">
           <div className="flex items-center gap-1.5">
             <h2 className="text-sm font-semibold text-white tracking-tight">Busiest Coding Days/Times</h2>
+            <span className="hidden sm:inline-flex items-center gap-1 text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+              CHRONO SCAN
+            </span>
             <div className="relative group/tooltip">
               <button
                 type="button"
@@ -253,6 +263,24 @@ export const BusiestCodingHoursCard: React.FC<BusiestCodingHoursCardProps> = ({ 
             <circle cx="160" cy="160" r="105" fill="none" stroke="rgba(255, 255, 255, 0.10)" strokeWidth="1" strokeDasharray="3 3" />
             <circle cx="160" cy="160" r="75" fill="none" stroke="rgba(255, 255, 255, 0.10)" strokeWidth="1" strokeDasharray="3 3" />
             <circle cx="160" cy="160" r="45" fill="#000000" stroke="rgba(255, 255, 255, 0.20)" strokeWidth="1.5" />
+
+            {/* Sci-Fi Radar Chrono Sonar Ping Wave */}
+            <circle cx="160" cy="160" r="12" fill="none" stroke="rgba(109, 255, 3, 0.6)" strokeWidth="1.5" className="animate-ping" opacity="0.35" />
+
+            {/* Sweeping Radar Hand on Polar Clock (Movie Chronometer) */}
+            <g className="animate-radar-sweep-slow pointer-events-none" style={{ transformOrigin: '160px 160px' }}>
+              <line
+                x1="160"
+                y1="160"
+                x2="160"
+                y2="25"
+                stroke="rgba(109, 255, 3, 0.85)"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                filter="drop-shadow(0 0 4px rgba(109, 255, 3, 0.8))"
+              />
+              <circle cx="160" cy="25" r="2.5" fill="#6dff03" opacity="0.9" />
+            </g>
 
             {/* Concentric Scale Commit Markers along vertical top axis */}
             <text x="160" y="86" textAnchor="middle" fill="#64748b" fontSize="8" fontFamily="monospace">

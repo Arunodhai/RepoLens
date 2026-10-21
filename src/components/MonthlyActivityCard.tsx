@@ -72,10 +72,16 @@ export const MonthlyActivityCard: React.FC<MonthlyActivityCardProps> = ({ data, 
   }, [chartData]);
 
   return (
-    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-[340px] shadow-sm relative overflow-hidden transition-all duration-200">
+    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-[340px] shadow-sm relative overflow-hidden transition-all duration-200 group">
+      {/* Sci-Fi HUD Corner Reticles */}
+      <span className="hud-corner-tl" />
+      <span className="hud-corner-tr" />
+      <span className="hud-corner-bl" />
+      <span className="hud-corner-br" />
+
       {/* Header */}
       <div>
-        <div className="flex items-start justify-between">
+        <div className="flex items-start justify-between relative z-10">
           <div className="space-y-0.5">
             <div className="flex items-center gap-2">
               <h2 className="text-sm font-semibold text-white tracking-tight">Monthly Repository Activity</h2>
@@ -84,8 +90,12 @@ export const MonthlyActivityCard: React.FC<MonthlyActivityCardProps> = ({ data, 
                   Peak: {busiestMonth.month}
                 </span>
               )}
+              <span className="hidden sm:inline-flex items-center gap-1 text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                STREAM ACTIVE
+              </span>
             </div>
-            <p className="text-[11px] text-zinc-400">Aggregated across active cycles (Commits & Reviews)</p>
+            <p className="text-[11px] text-zinc-400 font-mono">Aggregated across active cycles (Commits & Reviews)</p>
           </div>
 
           <div className="relative group/tooltip">
@@ -116,8 +126,19 @@ export const MonthlyActivityCard: React.FC<MonthlyActivityCardProps> = ({ data, 
         </div>
       </div>
 
-      {/* Bar Chart with translucent bright white and vibrant red gradient bars */}
-      <div className="w-full flex-1 min-h-[190px] mt-2 mb-1">
+      {/* Bar Chart with translucent bright white, vibrant red gradient bars, and live laser scanner beam */}
+      <div className="relative w-full flex-1 min-h-[190px] mt-2 mb-1 overflow-hidden">
+        {/* Animated Horizontal Laser Scanner Sweep (Movie Telemetry Beam) */}
+        <div className="absolute inset-0 pointer-events-none z-20 overflow-hidden">
+          <div
+            className="w-20 h-full animate-scanner-horiz opacity-30"
+            style={{
+              background: 'linear-gradient(90deg, transparent 0%, rgba(239, 68, 68, 0.35) 50%, rgba(255, 255, 255, 0.75) 95%, transparent 100%)',
+              borderRight: '1px solid rgba(255, 255, 255, 0.7)',
+              filter: 'drop-shadow(0 0 6px rgba(239, 68, 68, 0.6))',
+            }}
+          />
+        </div>
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={chartData} barGap={4} barCategoryGap="16%" margin={{ top: 12, right: 6, left: 6, bottom: 0 }}>
             <defs>
