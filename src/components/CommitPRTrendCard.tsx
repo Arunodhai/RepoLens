@@ -82,27 +82,17 @@ export const CommitPRTrendCard: React.FC<CommitPRTrendCardProps> = ({ data, comm
   }, [trendData]);
 
   return (
-    <div className="relative bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-full min-h-[340px] shadow-sm overflow-hidden group">
-      {/* Sci-Fi HUD Corner Reticles */}
-      <span className="hud-corner-tl" />
-      <span className="hud-corner-tr" />
-      <span className="hud-corner-bl" />
-      <span className="hud-corner-br" />
-
+    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-full min-h-[340px] shadow-sm">
       {/* Header */}
-      <div className="flex items-start justify-between relative z-10">
+      <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-2">
             <h2 className="text-sm font-semibold text-white tracking-tight">Commit & PR Velocity Trend</h2>
             <span className="text-[11px] font-mono text-zinc-400">
               {totalCommitsInTrend} commits across {trendData.length} active dates
             </span>
-            <span className="hidden sm:inline-flex items-center gap-1 text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-              OSCILLOSCOPE 60Hz
-            </span>
           </div>
-          <p className="text-[11px] text-zinc-400 mt-0.5 font-mono">Chronological delivery momentum and merge cadence</p>
+          <p className="text-[11px] text-zinc-400 mt-0.5">Chronological delivery momentum and merge cadence</p>
         </div>
 
         {/* Metric Selector & Tooltip */}
@@ -155,20 +145,8 @@ export const CommitPRTrendCard: React.FC<CommitPRTrendCardProps> = ({ data, comm
         </div>
       </div>
 
-      {/* Chart with Laser Scanner Sweep and Oscilloscope Tracers */}
-      <div className="relative w-full h-[225px] mt-2 overflow-hidden">
-        {/* Animated Horizontal Laser Scanner Sweep */}
-        <div className="absolute inset-0 pointer-events-none z-20 overflow-hidden">
-          <div
-            className="w-16 h-full animate-scanner-horiz opacity-25"
-            style={{
-              background: 'linear-gradient(90deg, transparent 0%, rgba(254, 83, 0, 0.3) 50%, rgba(109, 255, 3, 0.6) 95%, transparent 100%)',
-              borderRight: '1px solid rgba(109, 255, 3, 0.7)',
-              filter: 'drop-shadow(0 0 6px rgba(109, 255, 3, 0.5))',
-            }}
-          />
-        </div>
-
+      {/* Chart */}
+      <div className="w-full h-[225px] mt-2">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={trendData} margin={{ top: 10, right: 28, left: 10, bottom: 0 }}>
             <defs>
@@ -217,19 +195,7 @@ export const CommitPRTrendCard: React.FC<CommitPRTrendCardProps> = ({ data, comm
                 stroke="rgba(254, 83, 0, 1)"
                 strokeWidth={2}
                 fill="url(#trendAreaGradient)"
-                dot={(props: any) => {
-                  const { cx, cy, index } = props;
-                  const isLast = index === trendData.length - 1;
-                  if (isLast) {
-                    return (
-                      <g key={`ping-commit-${index}`}>
-                        <circle cx={cx} cy={cy} r={10} fill="none" stroke="rgba(254, 83, 0, 0.8)" strokeWidth={1} className="animate-ping" />
-                        <circle cx={cx} cy={cy} r={4} fill="rgba(254, 83, 0, 1)" stroke="#000" strokeWidth={1.5} />
-                      </g>
-                    );
-                  }
-                  return null;
-                }}
+                dot={false}
                 activeDot={{ r: 4, fill: 'rgba(254, 83, 0, 1)', stroke: '#ffffff', strokeWidth: 1.5 }}
               />
             )}
@@ -240,19 +206,7 @@ export const CommitPRTrendCard: React.FC<CommitPRTrendCardProps> = ({ data, comm
                 name="PRs Merged"
                 stroke="rgba(109, 255, 3, 1)"
                 strokeWidth={2}
-                dot={(props: any) => {
-                  const { cx, cy, index } = props;
-                  const isLast = index === trendData.length - 1;
-                  if (isLast) {
-                    return (
-                      <g key={`ping-pr-${index}`}>
-                        <circle cx={cx} cy={cy} r={10} fill="none" stroke="rgba(109, 255, 3, 0.8)" strokeWidth={1} className="animate-ping" />
-                        <circle cx={cx} cy={cy} r={3.5} fill="rgba(109, 255, 3, 1)" stroke="#000" strokeWidth={1.5} />
-                      </g>
-                    );
-                  }
-                  return <circle key={`dot-pr-${index}`} cx={cx} cy={cy} r={2} fill="rgba(109, 255, 3, 1)" />;
-                }}
+                dot={{ r: 2, fill: 'rgba(109, 255, 3, 1)' }}
                 activeDot={{ r: 4, fill: 'rgba(109, 255, 3, 1)', stroke: '#ffffff', strokeWidth: 1.5 }}
               />
             )}

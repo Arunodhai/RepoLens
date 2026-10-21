@@ -201,21 +201,8 @@ const Sparkline: React.FC<{
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="animate-laser-flow"
-        strokeDasharray="6 3"
       />
-      {/* Live radar tracer beacon on last data coordinate */}
-      <circle
-        cx={lastCoord.x}
-        cy={lastCoord.y}
-        r="5"
-        fill="none"
-        stroke={strokeColor}
-        strokeWidth="1"
-        className="animate-ping"
-        opacity="0.6"
-      />
-      <circle cx={lastCoord.x} cy={lastCoord.y} r="2.5" fill={strokeColor} />
+      <circle cx={lastCoord.x} cy={lastCoord.y} r="2" fill={strokeColor} />
     </svg>
   );
 };
@@ -251,14 +238,8 @@ export const KPICardsRow: React.FC<KPICardsRowProps> = ({ kpis }) => {
         return (
           <div
             key={idx}
-            className="group relative bg-zinc-950/80 border border-zinc-800/90 hover:border-zinc-700/90 rounded-xl p-3.5 flex flex-col justify-between transition-all duration-200 shadow-sm hover:shadow-md hover:shadow-black/60 overflow-hidden"
+            className="group relative bg-zinc-950/80 border border-zinc-800/90 hover:border-zinc-700/90 rounded-xl p-3.5 flex flex-col justify-between transition-all duration-200 shadow-sm hover:shadow-md hover:shadow-black/60 overflow-visible"
           >
-            {/* Sci-Fi HUD Corner Brackets */}
-            <span className="hud-corner-tl opacity-40 group-hover:opacity-90 transition-opacity" />
-            <span className="hud-corner-tr opacity-40 group-hover:opacity-90 transition-opacity" />
-            <span className="hud-corner-bl opacity-40 group-hover:opacity-90 transition-opacity" />
-            <span className="hud-corner-br opacity-40 group-hover:opacity-90 transition-opacity" />
-
             {/* Top row: Category tag + Icon & Actions (Copy + Info) */}
             <div className="flex items-center justify-between gap-1.5 mb-1.5">
               <div className="flex items-center gap-1.5 min-w-0">

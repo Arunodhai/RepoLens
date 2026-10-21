@@ -119,28 +119,18 @@ export const ContributionDonutCard: React.FC<ContributionDonutCardProps> = ({
   const activeContributor = activeIndex !== null ? contributors[activeIndex] : null;
 
   return (
-    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-[340px] shadow-sm relative overflow-hidden transition-all duration-200 group">
-      {/* Sci-Fi HUD Corner Reticles */}
-      <span className="hud-corner-tl" />
-      <span className="hud-corner-tr" />
-      <span className="hud-corner-bl" />
-      <span className="hud-corner-br" />
-
+    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-[340px] shadow-sm relative overflow-hidden transition-all duration-200">
       {/* Header */}
       <div>
-        <div className="flex items-start justify-between relative z-10">
+        <div className="flex items-start justify-between">
           <div className="space-y-0.5">
             <div className="flex items-center gap-2">
               <h2 className="text-sm font-semibold text-white tracking-tight">Contribution Distribution</h2>
               <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-300">
                 {contributors.length} Contributors
               </span>
-              <span className="hidden sm:inline-flex items-center gap-1 text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                ORBIT ACTIVE
-              </span>
             </div>
-            <p className="text-[11px] text-zinc-400 font-mono">Share of total commits & modifications</p>
+            <p className="text-[11px] text-zinc-400">Share of total commits & modifications</p>
           </div>
 
           <div className="relative group/tooltip">
@@ -218,39 +208,6 @@ export const ContributionDonutCard: React.FC<ContributionDonutCardProps> = ({
               />
             ))}
 
-            {/* Sci-Fi Orbit Reticle Rings (Outer Trackers) */}
-            <g className="animate-orbit-spin" style={{ transformOrigin: `${cx}px ${cy}px` }}>
-              <circle
-                cx={cx}
-                cy={cy}
-                r={baseOuterRadius + 8}
-                fill="none"
-                stroke="#38bdf8"
-                strokeWidth={0.75}
-                strokeDasharray="4 8 2 8"
-                opacity={0.3}
-              />
-              <circle
-                cx={cx + baseOuterRadius + 8}
-                cy={cy}
-                r={2}
-                fill="#38bdf8"
-                opacity={0.8}
-              />
-            </g>
-            <g className="animate-orbit-spin-reverse" style={{ transformOrigin: `${cx}px ${cy}px` }}>
-              <circle
-                cx={cx}
-                cy={cy}
-                r={baseOuterRadius + 14}
-                fill="none"
-                stroke="#ffffff"
-                strokeWidth={0.5}
-                strokeDasharray="1 14"
-                opacity={0.2}
-              />
-            </g>
-
             {/* Center Donut Hub */}
             <circle
               cx={cx}
@@ -265,12 +222,10 @@ export const ContributionDonutCard: React.FC<ContributionDonutCardProps> = ({
               cy={cy}
               r={baseInnerRadius - 8}
               fill="none"
-              stroke="#38bdf8"
-              strokeWidth={0.6}
+              stroke="#27272a"
+              strokeWidth={0.5}
               strokeDasharray="2 3"
-              className="animate-orbit-spin-reverse"
-              style={{ transformOrigin: `${cx}px ${cy}px` }}
-              opacity={0.4}
+              opacity={0.6}
             />
 
             {/* Center Hub Dynamic Content */}

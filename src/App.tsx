@@ -22,7 +22,6 @@ import { SecurityAuditView } from './components/SecurityAuditView';
 import { GitTimelineAndFilesView } from './components/GitTimelineAndFilesView';
 import { JiraKanbanView } from './components/JiraKanbanView';
 import { GitHubConnectModal } from './components/GitHubConnectModal';
-import { LiveTelemetryHudBar } from './components/LiveTelemetryHudBar';
 
 import { ShieldCheck, Info, AlertTriangle, GitCommit, Download } from 'lucide-react';
 import { exportRepositoryPdfReport } from './utils/exportPdfReport';
@@ -49,7 +48,6 @@ export default function App() {
   const [rateLimitInfo, setRateLimitInfo] = useState<string | null>(null);
   const [syncedDatasets, setSyncedDatasets] = useState<Record<string, RepoDataset>>({});
   const [isExportingPdf, setIsExportingPdf] = useState(false);
-  const [isCrtScanlines, setIsCrtScanlines] = useState(false);
 
   // Enforce pure OLED dark theme and clear any previous theme setting
   useEffect(() => {
@@ -185,11 +183,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black text-slate-100 flex flex-col font-sans selection:bg-amber-500/20 selection:text-amber-300 relative overflow-x-hidden">
-      {/* Authentic Sci-Fi Movie CRT Scanlines Overlay (Toggleable via Live HUD) */}
-      {isCrtScanlines && (
-        <div className="fixed inset-0 hud-scanlines z-50 pointer-events-none opacity-40 select-none" />
-      )}
-
       {/* Top Header */}
       <Header
         currentRepo={currentRepo}
@@ -255,14 +248,6 @@ export default function App() {
         {/* View 1: Main Intelligence Dashboard matching reference screenshot */}
         {activeTab === 'dashboard' && (
           <div className="space-y-4 animate-in fade-in duration-200">
-            {/* Movie-Style Live Telemetry & Mission Control HUD Bar */}
-            <LiveTelemetryHudBar
-              isCrtScanlines={isCrtScanlines}
-              onToggleCrt={() => setIsCrtScanlines((v) => !v)}
-              activeRepoName={currentRepo.fullName}
-              commitsCount={currentDataset.commits?.length || 0}
-            />
-
             {/* KPI Cards Row (6 Cards across) */}
             <KPICardsRow kpis={currentDataset.kpis[dateRange]} />
 

@@ -15,27 +15,17 @@ export const RepositoryHealthRadarCard: React.FC<RepositoryHealthRadarCardProps>
   const HEALTH_THEME_YELLOW = '#facc15'; // Vibrant Yellow (#facc15)
 
   return (
-    <div className="relative bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-full min-h-[340px] shadow-sm overflow-hidden group">
-      {/* Sci-Fi HUD Corner Reticles */}
-      <span className="hud-corner-tl" />
-      <span className="hud-corner-tr" />
-      <span className="hud-corner-bl" />
-      <span className="hud-corner-br" />
-
+    <div className="bg-black border border-zinc-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between h-full min-h-[340px] shadow-sm">
       {/* Header */}
-      <div className="flex items-start justify-between relative z-10">
+      <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-2">
             <h2 className="text-sm font-semibold text-white tracking-tight">Repository Health Radar</h2>
             <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-yellow-500/10 border border-yellow-500/25 text-yellow-400">
               {avgScore}% Avg
             </span>
-            <span className="hidden sm:inline-flex items-center gap-1 text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-              LIVE SWEEP 360°
-            </span>
           </div>
-          <p className="text-[11px] text-zinc-400 mt-0.5 font-mono">Multi-dimensional telemetry & maturity scan</p>
+          <p className="text-[11px] text-zinc-400 mt-0.5">Multi-dimensional engineering maturity</p>
         </div>
         <div className="relative group/tooltip">
           <button
@@ -52,30 +42,8 @@ export const RepositoryHealthRadarCard: React.FC<RepositoryHealthRadarCardProps>
         </div>
       </div>
 
-      {/* Spider Radar Chart with Cinematic Sweep Beam Overlay */}
-      <div className="relative w-full flex-1 min-h-[220px] py-1 flex items-center justify-center">
-        {/* Animated Sonar Radar Sweep Beam & Concentric Ping Rings */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden select-none">
-          {/* Fading Sonar Ping Wave */}
-          <div className="absolute w-24 h-24 rounded-full border border-yellow-400/25 animate-ping opacity-35" style={{ animationDuration: '3.2s' }} />
-          
-          {/* Secondary Slow Pulse */}
-          <div className="absolute w-44 h-44 rounded-full border border-yellow-500/15 animate-ping opacity-20" style={{ animationDuration: '4.8s' }} />
-
-          {/* Sweeping Conic Radar Beam (Movie Radar Line) */}
-          <div
-            className="w-[184px] h-[184px] rounded-full animate-radar-sweep pointer-events-none"
-            style={{
-              background: 'conic-gradient(from 0deg, rgba(250, 204, 21, 0.32) 0deg, rgba(250, 204, 21, 0.08) 42deg, transparent 75deg)',
-              borderRight: '1.5px solid rgba(250, 204, 21, 0.75)',
-            }}
-          />
-
-          {/* Reticle Axis crosshairs */}
-          <div className="absolute w-[184px] h-[1px] bg-yellow-500/10 pointer-events-none" />
-          <div className="absolute h-[184px] w-[1px] bg-yellow-500/10 pointer-events-none" />
-        </div>
-
+      {/* Spider Radar Chart */}
+      <div className="w-full flex-1 min-h-[220px] py-1">
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart cx="50%" cy="50%" outerRadius="68%" data={metrics}>
             <defs>
@@ -118,34 +86,24 @@ export const RepositoryHealthRadarCard: React.FC<RepositoryHealthRadarCardProps>
                 );
               }}
             />
-            {/* Health Radar Polygon with movie glowing pulse dots */}
+            {/* Health Radar Polygon */}
             <Radar
               name="Health"
               dataKey="score"
               stroke="#facc15"
               strokeWidth={2}
               fill="url(#healthRadarGradient)"
-              dot={(props: any) => {
-                const { cx, cy, key } = props;
-                return (
-                  <g key={key}>
-                    <circle cx={cx} cy={cy} r={6} fill="none" stroke="#facc15" strokeWidth={1} opacity={0.4} className="animate-ping" />
-                    <circle cx={cx} cy={cy} r={3.5} fill="#facc15" stroke="#000000" strokeWidth={1.5} />
-                  </g>
-                );
-              }}
+              dot={{ r: 3.5, fill: '#facc15', stroke: '#000000', strokeWidth: 1.5 }}
             />
           </RadarChart>
         </ResponsiveContainer>
       </div>
 
       {/* Footer */}
-      <div className="flex items-center justify-between pt-1 border-t border-zinc-800/80 text-[10px] text-zinc-400 font-mono relative z-10">
+      <div className="flex items-center justify-between pt-1 border-t border-zinc-800/80 text-[10px] text-zinc-400 font-mono">
         <span>Aggregate Index: <strong className="text-yellow-400">{avgScore}%</strong></span>
-        <span className="text-yellow-400 flex items-center gap-1.5">
-          <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
-          <ShieldCheck className="w-3 h-3 text-yellow-400 inline" />
-          <span>All Metrics Nominal</span>
+        <span className="text-yellow-400 flex items-center gap-1">
+          <ShieldCheck className="w-3 h-3 text-yellow-400 inline" /> All Metrics Nominal
         </span>
       </div>
     </div>
