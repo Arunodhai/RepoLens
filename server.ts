@@ -16,9 +16,15 @@ const portIndex = args.indexOf('--port');
 const cliPort = portIndex !== -1 && args[portIndex + 1] ? Number(args[portIndex + 1]) : null;
 const hostIndex = args.indexOf('--host');
 const host = (hostIndex !== -1 && args[hostIndex + 1]) || '0.0.0.0';
-const port = cliPort || Number(process.env.PORT) || 3000;
+// Dev server MUST run on port 3000. Never bind to 8080 since nginx already binds 8080 in AI Studio.
+const port = cliPort || (process.env.PORT && process.env.PORT !== '8080' ? Number(process.env.PORT) : 3000);
 
 app.use(express.json());
+
+// Fast health-check endpoint for container and readiness probes
+app.get('/health', (_req, res) => {
+  res.status(200).json({ status: 'ok', uptime: process.uptime(), port });
+});
 
 // GitHub proxy endpoint to assist with CORS or token injection if provided
 app.get('/api/github/repo', async (req, res) => {
@@ -103,7 +109,10 @@ const isProduction = process.env.NODE_ENV === 'production';
 if (!isProduction) {
   const { createServer } = await import('vite');
   const vite = await createServer({
-    server: { middlewareMode: true },
+    server: {
+      middlewareMode: true,
+      hmr: false,
+    },
     appType: 'spa',
   });
   app.use(vite.middlewares);
@@ -130,6 +139,19 @@ if (!isProduction) {
   });
 }
 
-app.listen(port, host, () => {
+const server = app.listen(port, host, () => {
   console.log(`RepoLens running on http://${host}:${port}`);
 });
+
+process.on('SIGTERM', () => {
+  server.close(() => {
+    process.exit(0);
+  });
+});
+
+process.on('SIGINT', () => {
+  server.close(() => {
+    process.exit(0);
+  });
+});
+
